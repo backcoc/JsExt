@@ -1,0 +1,93 @@
+<!--
+    @Author: Greg Mercer
+    Copyright ©20 Jungle Scout
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/login.css" />
+    <script type="text/javascript" src="js/libraries/jquery.js"></script>
+    <script type="text/javascript" src="js/libraries/sentry.js"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/background/helpers.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/loginConsent.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body>
+    <!-- Start The Top Bar -->
+    <div class="top-menu-bar">
+      <div class="left-bar">
+        <a href="https://www.junglescout.com/"><img src="images/js-logo-top-menu.png"/></a>
+      </div>
+    </div>
+    <!-- End the top bar -->
+
+    <!-- The container -->
+    <div class="container">
+      <a href="https://www.junglescout.com/" target="_blank"
+        ><img class="jsLogo" src="images/js-white.png"
+      /></a>
+      <p class="login-message">Log in to your Jungle Scout account!</p>
+
+      <div class="error" id="error_0">
+        Sorry, you were logged out. Please try logging in again. If the problem persists
+        <a href="https://support.junglescout.com/hc/en-us/requests/new" target="_blank"
+          >contact support.</a
+        >
+      </div>
+      <div class="error" id="error_1">
+        You are already logged into your account on another device. Please log out on that device
+        and try logging in again.
+        <a
+          href="https://support.junglescout.com/hc/en-us/articles/360018367673-Why-do-I-keep-getting-logged-out-of-the-Chrome-Extension-Can-I-use-it-on-more-than-1-computer-"
+          target="_blank"
+          >Learn more.</a
+        >
+      </div>
+      <div class="error" id="error_2">
+        Your login has expired. Please log in again.
+      </div>
+
+      <form id="jsLoginForm">
+        <label class="form-element" for="email">Email</label>
+        <input
+          class="form-input-element"
+          placeholder="example@gmail.com"
+          type="text"
+          id="email"
+          name="email"
+        />
+        <br />
+        <label class="form-element" for="password">Password</label>
+        <input
+          class="form-input-element"
+          id="password"
+          placeholder="Password"
+          type="password"
+          name="password"
+        />
+        <p class="note-message">
+          Forgot your password? Reset it
+          <a href="https://members.junglescout.com/users/password/new" target="_blank">here</a>.
+        </p>
+        <a id="submit" class="sign-btn" href="#"
+          ><span>Sign In to your Account <i class="right-arrow"></i></span
+        ></a>
+      </form>
+
+      <p class="message "></p>
+      <p class="note-message no-account">
+        Don't have an account? Click <a href="https://www.junglescout.com" target="_blank">here</a>.
+      </p>
+    </div>
+    <div id="consent">
+      <div id="consent_page_container"></div>
+    </div>
+    <!-- End the cotnainer -->
+  </body>
+</html>

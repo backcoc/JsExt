@@ -1,0 +1,627 @@
+{
+  "ContentTableHelpers": {
+    "AsinSearch": {
+      "supplierTooltip": "Find supplier for this product"
+    },
+    "ContentTableHelpers": {
+      "noBrandTooltip": "Amazon does not display a brand for this listing",
+      "noDimensionsTooltip": "Amazon does not list the dimensions of this product, therefore, cannot be displayed",
+      "noFbaFeesTooltip": "Amazon must give Jungle Scout the buy box price, dimensions and weight of this product in order to calculate FBA fees. One or more of these items are missing from Amazon",
+      "noLqsTooltip": "Amazon does not provide all the data necessary to calculate the LQS for this item",
+      "noNetTooltip": "Amazon does not list all of the necessary information (buy box price, dimensions and weight) to calculate the Net",
+      "noParentCategoryTooltip": "This listing does not have a parent category",
+      "noRankTooltip": "Amazon does not rank this listing in a parent category, only sub-categories. In order to compare apples to apples, sub-category ranks are not displayed in this window",
+      "noRevenueTooltip": "Monthly revenue cannot be estimated for this product because it either does not have a monthly sales estimate or a buy box price",
+      "noReviewRatingTooltip": "This product does not yet have a review rating",
+      "noSellerTooltip": "This listing does not have a seller who controls the buy box",
+      "noSellerTypeTooltip": "No sellers currently control the buy box, therefore a seller type cannot be displayed",
+      "noSellersNumberTooltip": "Amazon does not list the number of sellers for this listing",
+      "noSellersNumberTooltipForWalmart": "Walmart does not list the number of sellers for this listing",
+      "noSizingTooltip": "Amazon does not list the dimensions and weight of this product, therefore, the sizing tier cannot be displayed",
+      "noStarRatingTooltip": "Amazon does not display the star rating for this product",
+      "noStarRatingTooltipForWalmart": "Walmart does not display the star rating for this product",
+      "noWeightTooltip": "Amazon does not list the weight of this product, therefore, cannot be displayed"
+    },
+    "HeaNewActionsColumnBlueDot": {
+      "blueDotPopupButtonText": "Got it"
+    },
+    "NewActionsColumnBlueDot": {
+      "blueDotPopupTitle": "New features available!",
+      "keywordSearchText": "Reverse-search ASIN to discover the keywords competing products are using and which keywords a product ranks for."
+    },
+    "Ordinal": {
+      "alt": "Remove",
+      "title": "Remove product"
+    },
+    "SaleEstimate": {
+      "noSalesEstimationTooltip": {
+        "daily": " Daily",
+        "montly": " Monthly",
+        "text": " sales cannot be estimated for this product because Amazon does not rank it in a parent category. Unfortunately, sub-category ranks cannot provide accurate sales estimates, therefore should not be used by sellers to predict sales and are not used by Jungle Scout"
+      }
+    },
+    "Title": {
+      "sponsoredTitle": "Sponsored"
+    },
+    "variantProductWithSameRankTooltip": "Monthly revenue is not displayed for this variant because it has the same rank as the parent ASIN. The parent ASIN monthly revenue also includes the revenue of this variant"
+  },
+  "Embed": {
+    "CloseEmbedPopup": {
+      "cancelButton": "Cancel",
+      "closeButton": "Close",
+      "closePopupPrompt": "Do you want close Amazon embeded product information?",
+      "reopen": "You can reopen it from Extension - “Menu” - “Customize View”",
+      "title": "Close Embeded Information?"
+    }
+  },
+  "EmbedCard": {
+    "closeIcon": {
+      "tooltipContent": "Close"
+    },
+    "copyAsin": {
+      "tooltipContent": {
+        "copy": "Copy Asin",
+        "isCopied": "ASIN copied!"
+      }
+    },
+    "customizeViewIcon": {
+      "tooltipContent": "Customize View"
+    },
+    "footer": "Powered by <1>JungleScout</1>",
+    "keyWordSearchIcon": {
+      "tooltipContent": "Look up keywords"
+    },
+    "monthlySales": {
+      "tooltipContent": {
+        "noData": "Monthly sales cannot be estimated for this product because Amazon does not rank it in a parent category. Unfortunately, sub-category ranks cannot provide accurate sales estimates, therefore should not be used by sellers to predict sales and are not used by Jungle Scout"
+      }
+    },
+    "seller": {
+      "plural": "sellers",
+      "singular": "seller"
+    },
+    "trackerIcon": {
+      "tooltipContent": {
+        "tracked": "Added to your Tracker!"
+      }
+    }
+  },
+  "EmptyState": {
+    "EmptyState": {
+      "stepOne": "Click on the search bar above",
+      "stepThreeAfterIcon": " icon to view the listing information",
+      "stepThreeBeforeIcon": "Click on the ",
+      "stepTwo": "Enter a product idea ",
+      "title": "Try performing a search"
+    }
+  },
+  "Footer": {
+    "Footer": {
+      "loadButton": "Load More Results",
+      "resultCounterLoading": "Loading Results",
+      "resultCounterShowing": "Showing Results"
+    }
+  },
+  "Header": {
+    "Header": {
+      "blueDotPopupButtonText": "Got it",
+      "blueDotPopupText": "Try Dock Mode!",
+      "blueDotPopupTitle": "Popup window is blocking your screen?",
+      "menuButton": "Menu"
+    }
+  },
+  "SellerCentral": {
+    "CalendarSelect": {
+      "comparison": "Comparing to: {{label}}",
+      "customItem": "Custom"
+    },
+    "DatePicker": {
+      "error": {
+        "endDateHigherThanMaxDate": "The end date cannot be higher than {{maxDate}}",
+        "endDateLowerThanMinDate": "The end date cannot be lower than {{minDate}}",
+        "endDateLowerThanStartDate": "The end date cannot be lower than start date",
+        "startDateHigherThanEndDate": "The start date cannot be higher than end date",
+        "startDateHigherThanMaxDate": "The start date cannot be higher than {{maxDate}}",
+        "startDateLowerThanMinDate": "The start date cannot be lower than {{minDate}}"
+      }
+    },
+    "DateRangePicker": {
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "endDate": "End Date",
+      "error": {
+        "label": "Error"
+      },
+      "startDate": "Start Date"
+    },
+    "EmbeddedOrganicPpcBox": {
+      "collapsibleBoxTitle": "Dashboard"
+    },
+    "EmbeddedTopProductsBox": {
+      "Tabs": {
+        "topSalesRevenueProductsLabel": "Top Sales Revenue Products",
+        "topSalesUnitProductsLabel": "Top Sales Unit Products"
+      },
+      "collapsibleBoxTitle": "Top Products",
+      "footer": "<0>Want see Amazon sales data in real time? Try <2>Sales Analytics</2></0>"
+    },
+    "GraphEmptyState": {
+      "description": "Your one-stop view to monitoring business performance and essential metrics. Please check back later as we generate your insights.",
+      "title": "Bringing your key metrics together!"
+    },
+    "OrganicVsPpcGraph": {
+      "AsinPicker": {
+        "defaultOptionName": "All Products",
+        "searchPlaceholder": "Search ASIN, Title"
+      },
+      "DatePicker": {
+        "disabledDaysTooltip": "Currently, we only support showing the last 90 days of data",
+        "lastFourDaysTooltip": "Currently, we only support showing the data starting from 4 days ago"
+      },
+      "Tooltip": {
+        "negativeOrganicSales": "You have negative organic sales for this day because your reported ad data sales exceeds your reported total sales.",
+        "noDataToDisplay": "To fetch the latest PPC Sales and Organic Sales, please open your campaign manager."
+      },
+      "TopProducts": {
+        "dropDownDateSelector": {
+          "tooltip": "Since we only can start scraping after 5 days, only data from 5 days ago can be shown."
+        }
+      },
+      "lineChartSelect": {
+        "dropdown": {
+          "subtitle": {
+            "pcc": "PPC Metrics",
+            "sales": "Sales Metrics"
+          },
+          "title": "Select any {{accessorsLimit}}"
+        },
+        "title": "{{selectedCount}} Selected"
+      },
+      "ppcNotPresentTooltip": "To fetch the PPC Sales information, please open your campaign manager.<1><0></0><1>Open Campaign Manager</1></1>",
+      "ppcPresentTooltip": "To fetch the latest PPC Sales information, please open your campaign manager.<1><0></0><1>Open Campaign Manager</1></1>",
+      "ppcSalesLabel": "PPC Sales",
+      "ppcSalesLabelTooltip": "The total value of products sold to shoppers within the specified time frame attributed due to direct clicks on your ads",
+      "salesLabel": "Sales",
+      "totalSalesLabel": "Total Sales",
+      "totalSalesTooltip": "The total value of products sold to shoppers within the specified timeframe"
+    },
+    "all": "All",
+    "deselectAll": "Deselect All",
+    "no": "No",
+    "selectAll": "Select All"
+  },
+  "Summary": {
+    "Summary": {
+      "avgMonthlyLabel": "Average Monthly Sales",
+      "avgPriceLabel": "Average Price",
+      "avgRankLabel": "Average Sales Rank",
+      "avgReviewsLabel": "Average Rating Number",
+      "avgSalesLabel": "Average Sales",
+      "exportDateLabel": "Export time",
+      "opportunityScoreLabel": "Opportunity Score",
+      "productPageLabel": "Product Title"
+    }
+  },
+  "SummaryCard": {
+    "SummaryCard": {
+      "noDataAvailable": "No Data Available",
+      "noDataAvailableShort": "No Data"
+    }
+  },
+  "SummaryOppScoreCard": {
+    "SummaryOppScoreCard": {
+      "noDataAvailable": "No Data <1></1>Available",
+      "noDataAvailableShort": "No Data",
+      "onlyOnSearchText": "Only Available <1></1>on Search Pages",
+      "onlyOnSearchTextShort": "N/A",
+      "tooltipContent": "The Opportunity Score is an in-house algorithm graded on a scale of 1-10 where 10 is the highes opportunity and 1 is the lowest. The score is calculated based on all listings extracted and their demand according to units sold, competition and listing quality score"
+    }
+  },
+  "Watermark": "Powered by <1>JungleScout</1>",
+  "components": {
+    "OppScoreIcon": {
+      "competitionLabel": "with {{ competition }} comp.",
+      "demandLabel": "{{ demand }} Demand"
+    },
+    "ReviewsDownload": {
+      "alert": {
+        "error1": "Something went wrong with your review download.",
+        "error2": "Please check your Internet connection, clear cache in the settings of your browser and refresh the page."
+      },
+      "downloadReviews": "Download Reviews",
+      "reviews": "Reviews",
+      "tooltip": {
+        "failure": "No valid data, please clear cache and refresh.",
+        "loading": "Loading... Please wait a moment.",
+        "maximum": "You can download up to {{ number }} of the latest reviews.",
+        "noremind": "Do not remind me again.",
+        "started1": "Data extraction started! Reviews will be ready to download when data is extracted.",
+        "started2": "Do not close the page before download is finished.",
+        "unsupportedData": "No reviews available for download.",
+        "unsupportedMarket1": "Download Reviews is currently only supported in the US marketplace.",
+        "unsupportedMarket2": "We will support more marketplaces in the future.",
+        "unsupportedPage": "Only available on Product Detail Page."
+      }
+    },
+    "levelLabel": {
+      "competition": {
+        "highLabel": "high",
+        "lowLabel": "low",
+        "mediumLabel": "medium"
+      },
+      "demand": {
+        "highLabel": "High",
+        "lowLabel": "Low",
+        "mediumLabel": "Medium"
+      }
+    }
+  },
+  "constants": {
+    "SellerCentral": {
+      "graphMetrics": {
+        "Acos": "ACOS",
+        "AcosTooltip": "Advertising Cost of Sales (ACOS): The percentage of sales spent on advertising (total spend / total sales x 100)",
+        "BuyBoxPercent": "Buy Box Percent",
+        "BuyBoxPercentTooltip": "The percentage of page views where the buy box (the add to shopping cart link) was displayed for  customers to add your product to their cart",
+        "Clicks": "Clicks",
+        "ClicksTooltip": "The number of times an ad is clicked",
+        "ConversionRate": "Conversion rate",
+        "ConversionRateTooltip": "Measures the percentage of shoppers added your product to their carts and completed a purchase after watching an ad",
+        "Cpc": "CPC",
+        "CpcTooltip": "The average amount paid for a click on the keyword, calculated as total spend divided by the number of clicks (spend / clicks)",
+        "Impressions": "Impressions",
+        "ImpressionsTooltip": "The number of times ads were displayed",
+        "OrganicSales": "Organic Sales",
+        "OrganicSalesTooltip": "The total value of products sold to shoppers within the specified time frame attributed to direct clicks on your listing  on Amazon",
+        "PageViews": "Page Views",
+        "PageViewsTooltip": "Number of times a listing has been viewed in the selected time period",
+        "ReviewsReceived": "Reviews Received",
+        "ReviewsReceivedTooltip": "The total number of customer reviews for a product",
+        "Roas": "ROAS",
+        "RoasTooltip": "Return on Ad Spend (ROAS): The revenue you receive from your advertising investment. This is calculated by dividing sales attributed to your ads by your spend. Attribution varies by campaign type",
+        "SalesRank": "Sales Rank",
+        "SalesRankTooltip": "The Best Sellers Rank in the parent category",
+        "Spend": "Spend",
+        "SpendTooltip": "The total click charges for product ads",
+        "UnitsOrdered": "Units Ordered",
+        "UnitsOrderedTooltip": "Number of units ordered"
+      }
+    },
+    "TopProductsTableColumns": {
+      "asin": "ASIN",
+      "productTitle": "Product Title",
+      "revenue": "Revenue",
+      "salesRevenuePercentage": "% of Sales Revenue",
+      "salesUnitsPercentage": "% of Sales Units",
+      "units": "Units"
+    },
+    "filters_template": {
+      "TABLE_FILTER_MIN_MAX_TEMPLATE": {
+        "estRevenue": "Revenue",
+        "salesEstMonthly": "Sales"
+      }
+    },
+    "menu_drawer": {
+      "Subviews": {
+        "columnsTitle": "Customize your view",
+        "filtersTitle": "Filter Results",
+        "helpTitle": "Help",
+        "settingsTitle": "Account Settings"
+      }
+    },
+    "productTable": {
+      "NON_OPTIONAL_COLUMNS": {
+        "actionsLabel": "Actions",
+        "productNameLabel": "Product Name"
+      },
+      "PRODUCT_TABLE_COLUMNS": {
+        "menuBrandLabel": "Brand",
+        "menuCategoryLabel": "Category",
+        "menuDailySalesLabel": "Daily Estimated Sales",
+        "menuDimensionsLabel": "Product Dimensions",
+        "menuFeesLabel": "Fees",
+        "menuListingDateLabel": "Date First Available",
+        "menuLqsLabel": "Listing Quality Score",
+        "menuMonthlyRevenueLabel": "Estimated Revenue",
+        "menuMonthlySalesLabel": "Monthly Estimated Sales",
+        "menuNetLabel": "Net and Profit Calculator",
+        "menuPriceLabel": "Price",
+        "menuRankLabel": "Rank",
+        "menuRatingLabel": "Rating",
+        "menuReviewsLabel": "Rating Number",
+        "menuSellerTypeLabel": "Seller type",
+        "menuSellersLabel": "Number of Sellers",
+        "menuTierLabel": "Tier",
+        "menuWeightLabel": "Product Weight",
+        "tableBrandLabel": "Brand",
+        "tableCategoryLabel": "Category",
+        "tableDailySalesLabel": "D. Sales",
+        "tableDimensionsLabel": "Dimensions",
+        "tableFeesLabel": "Fees",
+        "tableListingDateLabel": "Date First Available",
+        "tableLqsLabel": "LQS",
+        "tableMonthlyRevenueLabel": "Mo. Revenue",
+        "tableMonthlySalesLabel": "Mo.Sales",
+        "tableNetLabel": "Net",
+        "tablePriceLabel": "Price",
+        "tableRankLabel": "BSR",
+        "tableRatingLabel": "Rating",
+        "tableReviewsLabel": "Rating Number",
+        "tableSellerTypeLabel": "Seller type",
+        "tableSellersLabel": "Sellers",
+        "tableTierLabel": "Tier",
+        "tableWeightLabel": "Weight"
+      }
+    },
+    "tooltips": {
+      "TABLE_COLUMN_TOOLTIPS": {
+        "addToTracker": "Add to your Product Tracker",
+        "dateFirstAvailable": "MM/DD/YYYY, Data from Amazon",
+        "estimatedDateFirstAvailable": "MM/DD/YYYY, Since Amazon does not provide this data, we will estimate by using the earliest review date or earliest Q&A date",
+        "net": "View profit calculator",
+        "ordinal": "Remove product from table",
+        "price": "View Buy Box price history",
+        "rank": "View Best Sellers Rank history",
+        "salesEstDaily": "View daily sales history",
+        "salesEstMonthly": "View monthly sales history",
+        "salesFromApi": "Jungle Scout uses rank to calculate estimated sales/revenue. The best sellers rank for the parent category is not shown on this product's listing page, only through Amazon's API. Historically, in this particular scenario, ranks seem to fluctuate greatly and therefore the estimated sales/revenue should be used with caution. We recommend tracking this product in our Product Tracker to get more accurate monthly sales"
+      },
+      "TABLE_FILTER_TOOLTIPS": {
+        "categories": "Select one or multiple categories",
+        "estimatedRevenue": "Select minimum and/or maximum Estimated Monthly Revenue",
+        "estimatedSales": "Select minimum and/or maximum monthly Estimated Sales (estimates based on rank)",
+        "listingQualityScore": "The Listing Quality Score is a grade based off an in-house algorithm factoring in the quality of the title, bullet points, photos and description. Product listings are graded 1-10 with 10 being the best.",
+        "marketplace": "Select one Amazon Marketplace",
+        "minMax": "Min/max filter options",
+        "net": "Select minimum and/or maximum Net (less FBA fees)",
+        "price": "Select minimum and/or maximum Price",
+        "rank": "Select minimum and/or maximum for Bestseller Rank",
+        "rating": "Select minimum and/or maximum Star Rating (1 Star - 5 Stars)",
+        "reviews": "Select minimum and/or maximum Rating Number",
+        "seller": "Filter by Seller Type",
+        "sellers": "Select minimum and/or maximum Number of Sellers (total of AMZ, FBA and FBM sellers)",
+        "tier": "Filter by Product Tier",
+        "weight": "Select minimum and/or maximum Weight (in lbs)"
+      },
+      "TABLE_HEADER_TOOLTIPS": {
+        "bbSeller": "Type of seller that currently controls the Buy Box",
+        "category": "Listings parent category",
+        "dimensions": "Packaged dimensions (length x width x height)",
+        "estRevenue": "30-day gross revenue (price x monthly sales)",
+        "estimatedListingDate": "MM/DD/YYYY, Since Amazon does not provide this data, we will estimate by using the earliest review date or earliest Q&A date",
+        "fbaFees": "Total fees paid to Amazon based on the current price",
+        "listingDate": "MM/DD/YYYY, Data from Amazon",
+        "lqs": "Listing Quality Score: Is an in-house algorithm that determines the quality of a listing (10 = high quality listing / 1 = low quality listing)",
+        "net": "Payout to the sellers after subtracting Amazon’s fees",
+        "price": "Current Buy Box price",
+        "rank": "Best Sellers Rank in the parent category",
+        "rating": "Average review star rating",
+        "reviews": "Number of product reviews for this listing",
+        "salesEstDaily": "Daily unit sales estimate",
+        "salesEstMonthly": "30-day unit sales estimate",
+        "sellers": "Number of sellers currently selling on the listing",
+        "tier": "Product size tier (based on weight & dimensions of item)",
+        "weight": "Packaged weight"
+      }
+    }
+  },
+  "dropdown": {
+    "AlreadyAddedToTracker": {
+      "AlreadyAddedToTracker": {
+        "buttonText": "View In Tracker",
+        "label": "This product is already being tracked."
+      }
+    }
+  },
+  "generic": {
+    "DateRanges": {
+      "last30Days": "Last 30 Days",
+      "last60Days": "Last 60 Days",
+      "last7Days": "Last 7 Days",
+      "last90Days": "Last 90 Days"
+    }
+  },
+  "menu_drawer": {
+    "MenuDrawer": {
+      "MenuDrawer": {
+        "menuItem": {
+          "disabledTitle": "Go to {{tooltipContent}} search results page to be able to see Google search trends",
+          "labelCustomizeView": "Customize View",
+          "labelDownloadCsv": "Download CSV",
+          "labelDownloadScreenshot": "Download Screenshot",
+          "labelFilterResults": "Filter Results",
+          "labelKeywordCloud": "Keyword Cloud",
+          "labelSearchTrends": "Search Trends"
+        }
+      }
+    },
+    "MenuFooter": {
+      "MenuFooter": {
+        "menuHelp": "Help",
+        "menuLogOut": "Log Out",
+        "menuSettings": "Account Settings"
+      }
+    },
+    "MenuItemCsvDownload": {
+      "MenuItemCsvDownload": {
+        "label": "Download CSV"
+      }
+    },
+    "MenuItemKeywordCloud": {
+      "MenuItemKeywordCloud": {
+        "label": "Keyword Cloud"
+      }
+    },
+    "MenuSubview": {
+      "MenuSubview": {
+        "headerLabel": "Main Menu"
+      }
+    },
+    "MinMaxFilters": {
+      "DatePicker": {
+        "DateRanges": {
+          "1Month": "1 Month",
+          "1Year": "1 Year",
+          "3Months": "3 Months",
+          "6Months": "6 Months",
+          "all": "All"
+        }
+      },
+      "MinMaxFilter": {
+        "highestPlaceholder": "Highest",
+        "lowestPlaceholder": "Lowest"
+      }
+    },
+    "PtotoAndName": {
+      "PtotoAndName": {
+        "helloStringWithName": "Hello,",
+        "helloStringWithoutName": "Hello!"
+      }
+    },
+    "SizeTier": {
+      "SizeTier": {
+        "wrapper": "Size Tier"
+      }
+    },
+    "SubviewColumns": {
+      "SubviewColumns": {
+        "columnTitle": "Add/Remove Data Point",
+        "toggleEmbedTitle": "Show Product Information on Amazon Page",
+        "toggleProductPageEmbedTitle": "Show Product Information on Product Detail Page",
+        "toggleSponsoredTitle": "Show Sponsored Products"
+      }
+    },
+    "SubviewFooter": {
+      "SubviewFooter": {
+        "buttonApplyChanges": "Apply Changes",
+        "buttonReset": "Reset"
+      }
+    },
+    "SubviewHelp": {
+      "SubviewHelp": {
+        "labelContactSupport": "Contact Support",
+        "labelHelp": "Help Center"
+      }
+    },
+    "SubviewSettings": {
+      "SubviewSettings": {
+        "ExpressModeTip": "When Slow Connection Mode is enabled, Extension uses Jungle Scout servers to make the results load faster. \n            However, enabling this setting will display results that may not reflect the most up-to-date Amazon listing data. \n            For the most accurate real-time data, disable Slow Connection Mode.",
+        "labelExpressMode": "Slow Connection Mode",
+        "sellerCentalGraphTip": "<0>When Seller Central Graph is enabled, Extension will show the Organic sales vs PPC sales data on <1>Amazon Seller Central home page.</1></0>",
+        "sellerCentralGraphLabel": "Seller Central Graph",
+        "subscriptionNameJsl": "Jungle Scout Lite Chrome Extension",
+        "subscriptionNameJsp": "Jungle Scout Pro Chrome Extension",
+        "subscriptionsHeader": "Current Subscriptions"
+      }
+    }
+  },
+  "modal": {
+    "FirefoxConsentPage": {
+      "PolicyDescription": "<0>A. Privacy Statement<1></1>Your privacy is valued and respected at Jungle Scout, Inc. (“​we​”, “​our​”, “​us​”). This Privacy Policy (“​Privacy Policy​”) describes the types of information, including Personal Data, that we gather from you when you use our FireFox Extension (our “​Service​”), as well as your choices regarding use and disclosure of your Personal Data. As used in this Privacy Policy, the term “Personal Data” (“​Personal Data​”) means information that identifies you directly or indirectly, by reference to identifier(s) such as your name, location data, online identifier or one or more factors specific to your physical, economic, cultural or social identity.<3></3>By accessing our Service, you agree to be bound by this Privacy Policy. If you do not agree to the terms of this Privacy Policy, you cannot use our Service. Each time you use our Service, the current version of the Privacy Policy will apply. Accordingly, whenever you use our Service, you should check the date of this Privacy Policy (which appears at the top) and review any changes since the last version. This Privacy Policy is applicable to all Service visitors, registered users, and all other users of our Service.<5></5>Further, you acknowledge that this Privacy Policy is part of our ​Terms of Service ​, which is incorporated by reference, and by accessing or using our Service, you agree to be bound by the Terms of Service. If you do not agree to our Terms of Service, you cannot use our Service.<7></7>If you have any questions about our privacy practices, please refer to the end of this Privacy Policy for information on how to contact us.<9></9><10></10>B. Personal Data Collected by Jungle Scout<12></12>When you use our Service, Jungle Scout collects information (i) that you knowingly and voluntarily Service ​(such as through forms or profile screens) including registration/account setup information, and (ii) that we are able to collect from your web browser, cookies and other similar technologies.<14></14><15></15>1. Personal Data that you Knowingly and Willingly Provide<17></17>Jungle Scout collects the information that you knowingly and voluntarily provide when you use our ​Service ​(such as through web forms or profile screens), including registration/account setup information, profile details, and ratings information. We primarily use this information to provide you the Service. You can choose not to provide us with certain Personal Data, but then you may not be able to take advantage of our Service ​or other available features we offer. The information that we collect and use may include the following kinds of Personal Data:<19></19>- First and Last Name<21></21>- Email Address<23></23>This data is sent to Jungle Scout servers.<25></25><26></26>2. Personal Data that we collect from you<28></28>Jungle Scout collects information that is sent to us automatically by your web browser. Jungle Scout may use this information to generate aggregate and/or anonymous statistics about visitors to our Service. This information typically includes details about your:<30></30>- IP Address<32></32>- Browser Type<34></34>- Operating System<36></36>- Local Time Zone<38></38>- Date and Time of Each Visitor Request (e.g. search result data and listing data from Amazon and other related websites)<40></40>- Language Preference<42></42>- Feature Adoption and usage<44></44>This data is sent to Jungle Scout servers<46>Pendo.io</46>.<48></48>Jungle Scout may use non-Personal Data for various business purposes such as providing customer service, fraud prevention, market research, and improving our Service (e.g. to display product information, sales estimates and embed data and/or actions onto pages for ease of use). <50></50>Jungle Scout uses<52>Sift.com</52>for fraud protection purposes. <54></54><55></55>3. Aggregate Information<57></57>We may aggregate and/or anonymize and/or pseudonymize all information that we collect from you, including Personal Data. This may be done for the purpose of market research on brands and products, marketing campaigns, and advertising.<59></59><60></60>C. How Is Your Personal Data Used?<62></62>We will only process your Personal Data, including sharing it with third parties, where (1) you have provided your consent which can be withdrawn at any time, by contacting support@junglescout.com (2) the processing is necessary for the performance of a contract to which you are a party, (3) we are required by law, (4) processing is required to protect your vital interests or those of another person, or (5) processing is necessary for the purposes of our legitimate commercial interests, except where such interests are overridden by your rights and interests.<64></64>We may use Personal Data we collect about you on its own or combine it with other information we have about you to:<66></66>- Perform internal operations, such as tracking and improving the effectiveness of our website, mobile experience, and marketing efforts;<68></68>- Provide product and/or Service fulfillment, such as creating accounts, managing purchases, payments, and more; <70></70>- Personalize user experiences, such as remembering your settings and preferences for things like language, font size, etc.;<72></72>- Provide support; <74></74>- Resolve disputes between users and/or a user and the company as set forth in our Terms of Service;<76></76>- Use the location of your device to prevent fraud or deliver other location-based services that you may request;<78></78>- Administer a sweepstakes, contest, or similar promotion; <80></80>- Advertise and market our products and Service – and those of our Business Partners –including to:<82></82>- Present targeted advertising, send or provide you with advertisements, promotions and offers;<84></84>- Analyze whether our advertisements, promotions, and offers are effective;<86></86>- Help us determine whether you may be interested in new products or services;<88></88>- Customer Testimonials;<90></90>- Conduct surveys;<92></92>- Conduct research;<94></94>- Receive feedback;<96></96>- Conduct audits;<98></98>- Provide information to our business partners;<100></100>- Provide information to the media;<102></102>- Provide information to our suppliers;<104></104>- Provide information to our representatives and/or advisors, such as our attorneys, accountants, and others to help us comply with legal, accounting, or security requirements;<106></106>- Transfer your information, such as to servers outside of the United States, or as part of a merger or sale of the business;<108></108>- Protect the rights, safety, and information of our members, third parties, as well as our own. This includes fraud prevention, business or product recalls, prosecuting and defending a court arbitration or similar proceeding, and more;<110></110>- Comply with legal<112></112>We may also disclose your Personal Data as otherwise set forth in this Privacy Policy, as permitted by law, or with your consent.<114></114><115></115>D. Who Can Access the Information We Collect?<117></117>We will only transfer your Personal Data to trusted third-parties who provide sufficient guarantees in respect of the technical and organizational security measures governing the processing to be carried out and who can demonstrate a commitment to compliance with those measures.<119></119>Where third parties are processing Personal Data on our behalf, they will be required to agree, by contractual means or otherwise, to process the Personal Data in accordance with the applicable law. This contract will stipulate, amongst other things, that the third party and its representative shall act only on our instructions, or as permitted by law.<121></121>Jungle Scout may disclose your Personal Data in the following instances:<123></123>Agents​. We employ other companies and individuals to perform functions on our behalf. Examples of such functions include fulfilling orders, delivering packages, sending postal mail and e-mail, removing repetitive information from customer lists, analyzing data, providing technical support, providing marketing assistance, providing search results and links (including paid listings and links), processing credit card payments, and providing customer service. We share our users’ Personal Data with these agents as we deem necessary for such third parties to perform their functions.<125></125>Employees​. Only authorized employees have access to your Personal Data.<127></127>Authorized Business Partners, Advertisers, Agents, and Promotional Offers​. We may enter into alliances, partnerships or other business arrangements with third parties to share Personal Data for the purpose of providing you with information regarding products and services that we think may be of interest to you. We may also share your information with third party partners in order for them to better target products and services to their customers. If you do not want to receive such offers, please contact us using the procedure listed in Section L (Your Rights) below.<129></129>To Comply with Legal Process, Protect Jungle Scout, or Enforce our Rights​. We may release your Personal Data when it is necessary to (i) conform to legal requirements or comply with legal process; (ii) enforce or apply our conditions of use and other agreements (iii) protect the rights, safety or property of Jungle Scout, our affiliates, service providers, our users or the public, or (iv) prevent a crime or protect national security (including exchanging information with other companies and organizations for fraud protection and credit risk reduction).<131></131>As Part of a Merger or Sale of Business​. We may disclose your Personal Data in connection with a substantial corporate transaction, such as the sale of our business, a divestiture, merger, consolidation, or asset sale, or in the unlikely event of bankruptcy.<133></133><134></134>E. Selling of Personal Information<136></136>We will not sell your Personal Data to third parties for their use without your consent.<138></138><139></139>F. Minors and Children Privacy<141></141>1. Children Online Protection<143></143>Our Service ​is not directed to children under the age of 16, if you are not 16 years or older, do not use our Service. We do not knowingly collect Personal Data from children under the age of 16. If we learn that Personal Data of persons less than 16 years-of-age has been collected through our Service, we will take the appropriate steps to delete this information. If you are a parent or guardian and discover that your child or a minor under the age of 13 has posted, submitted or otherwise communicated Personal Data to our Service ​without your consent, then you may alert us at ​support@junglescout.com so that we may take appropriate action to remove the minor’s Personal Data from our systems.<145></145>2. Erasure Law<147></147>In accordance with California law, minors under the age of 18 residing in California may remove or request and obtain removal of content and information that they post on the website or app. In order to remove or to request and obtain removal of such content and information, the user must alert us at ​support@junglescout.com​. Users should be aware that removal of the content and information posted by a minor does not ensure complete or comprehensive removal of the content or information posted on our Service.<149></149>Under certain circumstances, Jungle Scout may not have to comply with the above removal requirements. Jungle Scout also reserves the right, to the extent permitted by law, to anonymize the posted content or information or to make such content or information invisible to other users and the public instead of removing or deleting the content or information.<151></151><152></152>G. Links to Third Party Services<154></154>Our Service ​may contain links to third party websites, applications and services not operated by us. These links are provided as a service and do not imply any endorsement by Jungle Scout of the activities or content of these ​sites, applications or services nor any association with their operators. Jungle Scout is not responsible for the privacy policies or practices of any third party including websites or services directly linked to our Service. We encourage you to review the privacy policies of any third party​ ​site that you link from our Service.<156></156><157></157>H. Social Media Features Widgets<159></159>Our ​Service ​includes social media features, such as the Facebook “Like” button and widgets, such as the “Share This” button or authenticating your identity by logging into our Service ​via a social media account. These features may collect your IP address, which page you are visiting on our ​Service, and may set a cookie to enable the feature to function properly. Social media features and widgets are either hosted by a third party or hosted directly on our ​Service. Your interactions with these features are governed by the privacy policy of the company providing it.<161></161><162></162>I. Security, Storage, Retention<164></164>1. Security<166></166>We take reasonable technical and organizational precautions to protect the confidentiality, security and integrity of your Personal Data. Although we use security measures to help protect your Personal Data against loss, misuse or unauthorized disclosure, we cannot guarantee the security of information transmitted to us over the Internet.<168></168>2. Storage<170></170>The Personal Data that you provide to us is generally stored on servers located in the United States. If you are located in another jurisdiction, you should be aware that once your Personal Data is submitted through our Service, it will be transferred to our servers in the United States and that the United States currently does not have uniform data protection laws in place.<172></172>Jungle Scout uses Firefox WebExtensions Storage Sync/Local API for storing user's settings and browser's Web Storage API (localStorage) for storing user's preferences. <174></174>3. Retention<176></176>We will retain your information for as long as is needed to provide the service. If you wish to cancel your account or request that we no longer use your information to provide you service, contact us at ​support@junglescout.com​. We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.<178></178><179></179>J. Jungle Scout ​International Users<181></181>1. Consent to Transfer<183></183>We are headquartered in the United States. Your Personal Data may be accessed by us or transferred to us in the United States or to our affiliates, partners, merchants, or service providers who are located worldwide. If you are visiting our Service from outside the United States, be aware that your information may be transferred to, stored, and processed in the United States where our servers are located, and our central database is operated. By using our Service, you consent to any transfer of this information.<185></185>We will protect the privacy and security of Personal Data according to this privacy statement, regardless of where it is processed or stored, however you explicitly acknowledge and consent to the fact that Personal Data stored or processed in the United States will be subject to the laws of the United States, including the ability of governments, courts or law enforcement or regulatory agencies of the United States to obtain disclosure of your Personal Data.<187></187><188></188>K. Jungle Scout Changes to this Privacy Policy<190></190>We reserve the right to update or modify this Privacy Policy from time to time. If we make any material changes to this Privacy Policy or the way we use, share or collect Personal Data, we will notify you by revising the “Effective Date” at the top of this Privacy Policy, prominently posting an announcement of the changes on our Service, or sending an email to the email address you most recently provided us (unless we do not have such an email address) prior to the new policy taking effect. Users are bound by any changes to the Privacy Policy when he or she uses our Service ​after notice of such changes has been communicated. We encourage you to review this Privacy Policy regularly to ensure that you are familiar with Jungle Scout’s current practices.<192></192><193></193>L. Your Rights<195></195>1. Correction Removal<197></197>If any of the information that we have about you is incorrect, or you wish to have information (including Personal Data) removed from our records, please contact us at support@junglescout.com​. We will respond to such inquiries within forty-five (45) business days.<199></199>2. Marketing<201></201>By consenting to this Privacy Policy, you agree to receive marketing materials from us. If Personal Data is collected by us for marketing purposes, we will usually inform you before collecting your data or sharing it for third party purposes. You can prevent the processing of your Personal Data for these purposes by checking certain boxes on the forms we used to collect your personal data. Additionally, if you prefer not to receive marketing messages from us, please let us know by clicking on the unsubscribe link within any marketing message that you receive, or by sending a message to us at ​support@junglescout.com​.<203></203>3. Your California Rights<205></205>FOR RESIDENTS OF CALIFORNIA ONLY. Section 1798.83 of the California Civil Code requires select businesses to disclose policies relating to the sharing of certain categories of your Personal Data with third parties. If you reside in California and have provided your Personal Data to Jungle Scout, you may request information about our disclosures of certain categories of Personal Data to third parties for direct marketing purposes. Such requests must be submitted to us at one of the following addresses: ​support@junglescout.com​ or<207></207>Jungle Scout<209></209>Attn: California Privacy Rights<211></211>2021 E. 5th Street, Suite 190<213></213>Austin, TX 78702<215></215>Within thirty (30) days of receiving such a request, we will provide a list of the categories of Personal Data disclosed to third parties for third-party direct marketing purposes during the immediately preceding calendar year, along with the names and addresses of those third parties. This request may be made no more than once per calendar year. We reserve our right not to respond to requests submitted other than to the address specified in this Section.<217></217><218></218>4. Your European Union Rights<220></220>FOR INDIVIDUALS IN THE EUROPEAN UNION​. ​Under the General Data Protection Regulation 2016/679, you have the right to ask us not to process your Personal Data for marketing purposes. We will usually inform you (before collecting your Personal Data) if we intend to use your Personal Data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your Personal Data. You can also exercise the right by contacting us using the Contact Us section on our Site.<222></222>In certain circumstances, you have the right to:<224></224>request access to any Personal Data we hold about you (“Subject Access Request”) as well as related information, including the recipients or categories of recipients to whom the Personal Data has been shared;<226></226>obtain without undue delay the completion of any incomplete Personal Data or the rectification of any inaccurate Personal Data we hold about you;<228></228>prevent or restrict processing of your Personal Data, except to the extent processing is required for the establishment, exercise or defense of legal claims; and<230></230>request transfer of Personal Data directly to a third party where this is technically feasible.<232></232>In addition, where you believe that the Jungle Scout has not complied with its obligations under this Privacy Notice or European law, you have the right to make a complaint to an EU Data Protection Authority. <234></234>You can exercise any of these rights by contacting us using the Contact Us section on our Site.<236></236><237></237>M. Privacy Inquiries<239></239>If you have any questions or concerns about this Privacy Policy or our privacy practices please contact us as follows:<241></241>By emailing the Privacy Department at support@junglescout.com. <243></243>By mail post to: Privacy Department<245></245>Jungle Scout<247></247>2021 E. 5th Street, Suite 190<249></249>Austin, TX 78702</0>",
+      "button": {
+        "agree": "I agree - Continue to login ",
+        "disagree": "I disagree - Close window"
+      },
+      "description": {
+        "datas": "<0><0>Personal Info</0></0><1>- IP Address</1><2>- Local Time Zone</2><3><0>Technical Info</0></3><4>- Browser Type</4><5>- Operating System</5><6><0>Activity Info</0></6><7>- Feature Adoption and usage, including user interaction data</7><8>- Language Preference</8><9>- Date and Time of Each Visitor Request (e.g. search result data and listing data from Amazon and other related websites)</9><10>- Full tab URL with parameters</10>"
+      },
+      "subtitle1": "Do you give consent to us collecting the following personal data:",
+      "subtitle2": "Jungle Scout Firefox Extension Privacy Policy",
+      "subtitle3": "Please accept the terms of the privacy policy before using our app"
+    },
+    "Login": {
+      "Button": {
+        "hide": "Hide",
+        "login": "Log in",
+        "show": "Show",
+        "signUp": "Sign up"
+      },
+      "Description": {
+        "forgotPassword": "Forgot your password?",
+        "invalidEmail": "Please enter a valid email format.",
+        "noAccount": "Don’t have an account?"
+      },
+      "Error": {
+        "First": {
+          "description1": "There is no account that matches these credentials.",
+          "description2": "Please check your email and password."
+        },
+        "OverRateLimit": {
+          "description1": "Too many failed login attempts. Please try again later."
+        },
+        "Second": {
+          "description1": "Still having problems logging into your account?",
+          "description2": "Please",
+          "description3": "contact customer support"
+        },
+        "Timeout": {
+          "description1": "The connection has timed out, please try again."
+        }
+      },
+      "Label": {
+        "emailAddress": "Email Address",
+        "password": "Password"
+      },
+      "title": "Log in"
+    },
+    "Onboarding": {
+      "Buttons": {
+        "back": "Back",
+        "next": "Next",
+        "startProductResearch": "Start Product Research"
+      },
+      "Step1": {
+        "closeBtn": "No, thanks",
+        "description": "Take a quick tour to learn how it works",
+        "nextBtn": "Show me how it works",
+        "title": "<0>Welcome to</0><1>Extension</1>"
+      },
+      "Step2": {
+        "description": "Analyze real-time sales estimates, revenue projections, and a snapshot of the competitive landscape from your dashboard. Click a column header title to sort the data."
+      },
+      "Step3": {
+        "description": "The Opportunity Score uses data from all listings extracted such as demand and competition and returns a score from 1 - 10, 10 being the best opportunity for you."
+      },
+      "Step4": {
+        "description": "Access historic sales graphs and an FBA profit calculator by clicking any orange link in the columns. Click and drag sections of the graphs to zoom in on the data."
+      },
+      "Step5": {
+        "description": "Verify your product ideas by adding them to the Product Tracker. Click <2></2> to track the product. Click <4></4> to view the product you're tracking in Jungle Scout. "
+      },
+      "Step6": {
+        "description": "Get access to all your features in the main menu. Start by customizing your display options to view the data that’s most important to you."
+      },
+      "Step7": {
+        "descriptionLine1": "You’re ready to use the Extension.",
+        "descriptionLine2": "Go find a winning product!"
+      }
+    },
+    "OopsModal": {
+      "OopsModal": {
+        "title": "Oops!"
+      }
+    },
+    "UpgradeNotificationModal": {
+      "body": "<0>Chrome Extension Upgrade</0><1>Great news! We are upgrading your Chrome Extension access to Jungle Scout Pro, the most powerful version of our Extension at no extra cost! You can install Jungle Scout Pro in the Google Store <2>here</2> or using the button below. The Jungle Scout Lite version will be discontinued on May 1st, 2021.</1>",
+      "downloadButton": "Download Now",
+      "thanksButton": "Thanks"
+    }
+  },
+  "sellerCentral": {
+    "BulkReviewsButton": {
+      "staticText": {
+        "isComplete": "Finished Requesting Reviews ",
+        "notComplete": "Request Reviews On This Page"
+      }
+    },
+    "RequestReviewButton": {
+      "REVIEW_LABELS": {
+        "failed": "Review Failed",
+        "ineligible": "Review Ineligible",
+        "request": "Request Review",
+        "sending": "Sending Request",
+        "sent": "Review Sent"
+      }
+    }
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "ContentTableHelpers": {
+    "ActionsHeaderPopup": {
+      "blueDotText": "<0>如果您已购买Jungle Scout网页版，只需点击“搜索供应商”图标即可获得以下信息：该产品的供应商，该供应商生产的其他产品、主要客户和发货到美国的频率等",
+      "blueDotTitle": "<0>新功能上线！帮您快速找到竞品供应商</0>"
+    },
+    "AsinSearch": {
+      "supplierTooltip": "通过Jungle Scout网页版找到该产品的供应商"
+    },
+    "ContentTableHelpers": {
+      "noBrandTooltip": "“亚马逊没有提供此listing的品牌信息",
+      "noDimensionsTooltip": "亚马逊未列出此产品的尺寸，因此无法进行计算",
+      "noFbaFeesTooltip": "很抱歉，由于亚马逊后台数据库未提供该产品的尺寸、重量和价格信息，我们无法估算FBA费用",
+      "noLqsTooltip": "亚马逊未能提供用于计算该产品LQS(listing质量分数)所需的数据",
+      "noNetTooltip": "亚马逊未能提供用户计算产品利润所需的必要信息，如buy box价格，尺寸和重量等",
+      "noParentCategoryTooltip": "该listing没有父类目信息",
+      "noRankTooltip": "此listing在亚马逊中没有父类排名，只有子类排名。为了提供同一维度的数据，子类别排名没有显示在此列中",
+      "noRevenueTooltip": "由于没有预估月销量或buy box价格，因此我们无法估算该产品的月收入",
+      "noReviewRatingTooltip": "此产品目前还没有任何评论信息",
+      "noSellerTooltip": "当前没有卖家拥有该listing的buy box",
+      "noSellerTypeTooltip": "当前没有卖家拥有buy box，因此无法显示卖家类型",
+      "noSellersNumberTooltip": "亚马逊未列出此listing下的卖家数量",
+      "noSizingTooltip": "亚马逊未列出该产品的尺寸和重量，因此无法显示尺寸分段",
+      "noStarRatingTooltip": "亚马逊未列出该产品的星级",
+      "noWeightTooltip": "亚马逊未列出此产品的重量",
+      "noSellersNumberTooltipForWalmart": "沃尔玛未提供此listing的卖家数量",
+      "noStarRatingTooltipForWalmart": "沃尔玛未展示此产品的星级评分"
+    },
+    "Ordinal": {
+      "alt": "移除",
+      "title": "移除产品"
+    },
+    "SaleEstimate": {
+      "noSalesEstimationTooltip": {
+        "daily": "日销量",
+        "montly": "月销量",
+        "text": "是按照大类排名来预估的，当亚马逊没有为该ASIN提供大类排名时，插件就无法预估销量了。因为小类排名变动频繁，所以目前无法作为销量预估的参考。"
+      }
+    },
+    "Title": {
+      "sponsoredTitle": "赞助广告"
+    },
+    "variantProductWithSameRankTooltip": "未能展示此变体销量。因为它与父ASIN共享排名，父ASIN销量已经包含了该变体销量。",
+    "HeaNewActionsColumnBlueDot": {
+      "blueDotPopupButtonText": "知道了"
+    },
+    "NewActionsColumnBlueDot": {
+      "blueDotPopupTitle": "新功能来了！",
+      "copyAsinText": "复制ASIN",
+      "keywordSearchText": "ASIN反查可以帮助您精准定位竞品ASIN的关键词，快速筛选出其核心关键词及首页关键词。"
+    }
+  },
+  "EmptyState": {
+    "EmptyState": {
+      "stepOne": "点击亚马逊的搜索栏",
+      "stepThreeAfterIcon": "图标来查看listing信息",
+      "stepThreeBeforeIcon": "点击浏览器上方",
+      "stepTwo": "输入一个产品创意的关键词",
+      "title": "请换一个产品搜索试试"
+    }
+  },
+  "Footer": {
+    "Footer": {
+      "loadButton": "加载更多数据",
+      "resultCounterLoading": "加载更多数据",
+      "resultCounterShowing": "加载数据"
+    }
+  },
+  "Header": {
+    "Header": {
+      "menuButton": "菜单",
+      "blueDotPopupButtonText": "知道了",
+      "blueDotPopupText": "切换到浮窗固定模式吧！",
+      "blueDotPopupTitle": "您觉得插件占据屏幕太多空间吗？"
+    }
+  },
+  "Summary": {
+    "Summary": {
+      "avgMonthlyLabel": "平均月销量",
+      "avgPriceLabel": "平均价格",
+      "avgRankLabel": "平均排名",
+      "avgReviewsLabel": "平均评分数",
+      "opportunityScoreLabel": "机会分数",
+      "avgSalesLabel": "平均销量",
+      "exportDateLabel": "导出时间",
+      "productPageLabel": "产品标题"
+    }
+  },
+  "SummaryCard": {
+    "SummaryCard": {
+      "noDataAvailable": "目前暂无数据",
+      "noDataAvailableShort": "没有数据"
+    }
+  },
+  "SummaryOppScoreCard": {
+    "SummaryOppScoreCard": {
+      "noDataAvailable": "暂无数据",
+      "onlyOnSearchText": "仅在搜索页面显示",
+      "tooltipContent": "机会分数是Jungle Scout的独家算法（1-10分，10是最高得分，代表这是个非常好的机会）。它综合考量了市场的供需关系、竞争程度和竞品listing的质量等维度给出了综合评分，可帮助卖家快速有效地验证和筛选产品机会。由于机会分数是基于亚马逊API接口返回的产品的相关数据动态计算出来的，数据会根据采集信息的变化而变化。",
+      "upgradeButton": "请升级到插件专业版来查看更多数据",
+      "noDataAvailableShort": "没有数据",
+      "onlyOnSearchTextShort": "N/A"
+    }
+  },
+  "TrialBanner": {
+    "ctaCountLowPlural": "您在试用期内还有<1><0>{{remainingSearches}}</0>次搜索机会</1>。 <4>现在就购买</4>以便继续使用Jungle Scout.",
+    "ctaCountLowSingular": "您在试用期内还有<1><0>{{remainingSearches}}</0>次搜索机会</1>。 <4>现在就购买</4>以便继续使用Jungle Scout.",
+    "ctaCountRegular": "您在试用期内还有 <1><0>{{remainingSearches}}</0>次搜索机会</1>。 <4>现在就购买！</4>"
+  },
+  "constants": {
+    "filters_template": {
+      "TABLE_FILTER_MIN_MAX_TEMPLATE": {
+        "estRevenue": "月收入",
+        "salesEstMonthly": "月销量"
+      }
+    },
+    "menu_drawer": {
+      "Subviews": {
+        "columnsTitle": "自定义展示列表",
+        "filtersTitle": "筛选结果",
+        "helpTitle": "帮助",
+        "settingsTitle": "帐户设置"
+      }
+    },
+    "productTable": {
+      "NON_OPTIONAL_COLUMNS": {
+        "actionsLabel": "操作",
+        "productNameLabel": "产品名称"
+      },
+      "PRODUCT_TABLE_COLUMNS": {
+        "menuBrandLabel": "品牌",
+        "menuCategoryLabel": "类目",
+        "menuDailySalesLabel": "预估日销量",
+        "menuDimensionsLabel": "产品尺寸",
+        "menuFeesLabel": "费用",
+        "menuListingDateLabel": "上架时间",
+        "menuLqsLabel": "Listing质量分数",
+        "menuMonthlyRevenueLabel": "预估月收入",
+        "menuMonthlySalesLabel": "预估月销量",
+        "menuNetLabel": "利润计算器",
+        "menuPriceLabel": "售价",
+        "menuRankLabel": "排名",
+        "menuRatingLabel": "星级",
+        "menuReviewsLabel": "评分数量",
+        "menuSellerTypeLabel": "卖家类型",
+        "menuSellersLabel": "卖家数量",
+        "menuTierLabel": "尺寸分段",
+        "menuWeightLabel": "产品重量",
+        "tableBrandLabel": "品牌",
+        "tableCategoryLabel": "类目",
+        "tableDailySalesLabel": "预估日销量",
+        "tableDimensionsLabel": "尺寸",
+        "tableFeesLabel": "费用",
+        "tableListingDateLabel": "上架时间",
+        "tableLqsLabel": "Listing质量分数",
+        "tableMonthlyRevenueLabel": "月收入",
+        "tableMonthlySalesLabel": "月销量",
+        "tableNetLabel": "毛利润",
+        "tablePriceLabel": "售价",
+        "tableRankLabel": "排名",
+        "tableRatingLabel": "星级",
+        "tableReviewsLabel": "评分数",
+        "tableSellerTypeLabel": "卖家类型",
+        "tableSellersLabel": "卖家数量",
+        "tableTierLabel": "产品分段",
+        "tableWeightLabel": "重量"
+      }
+    },
+    "tooltips": {
+      "TABLE_COLUMN_TOOLTIPS": {
+        "addToTracker": "加入到网页版的竞品跟踪器",
+        "net": "查看利润计算器",
+        "ordinal": "从列表中移除",
+        "price": "查看历史Buy Box价格",
+        "rank": "查看历史BSR数据",
+        "salesEstDaily": "查看历史日销量",
+        "salesEstMonthly": "查看历史月销量",
+        "salesFromApi": "JS插件是按照父类排名来预估销量的。当亚马逊没有为该ASIN提供父类排名时，插件就无法显示预估销量了。而小类排名变动频繁，所以也无法作为销量预估的参考。我们建议您将该类产品添加到网页版的竞品跟踪器中做进一步观察。",
+        "dateFirstAvailable": "月/日/年",
+        "estimatedDateFirstAvailable": "月/日/年；由于亚马逊未能提供该产品的上架时间，我们会根据该产品最早的一条评论或QA问答估算产品的上架时间"
+      },
+      "TABLE_FILTER_TOOLTIPS": {
+        "categories": "请选择一个或多个类目",
+        "estimatedRevenue": "请设置最低、最高月预估收入",
+        "estimatedSales": "请设置最低、最高月预估销量（根据排名估算）",
+        "listingQualityScore": "前10个产品的平均Listing质量得分。JS会通过内部算法对每个Listing的质量进行分级，质量的考核包含了标题、关键词、照片和描述等条件，由此计算出产品Listing的整体质量。高分（8-10）说明质量很好，优化空间不大，代表这个利基市场的进入难度相对较大。较低的分数（低于4分）表示该Listing质量很差，有优化空间，因此对卖家来说是一个很好的机会。",
+        "marketplace": "选择一个亚马逊站点",
+        "minMax": "最小、最大筛选条件",
+        "net": "设置最低、最高毛利润值（价格减去FBA费用）",
+        "price": "设置最低、最高价格",
+        "rank": "设置最低、最高Best Seller排名",
+        "rating": "设置最低、最高星级（1-5星）",
+        "reviews": "设置最少、最多的评分数量",
+        "seller": "通过卖家类型筛选",
+        "sellers": "设置最小、最大卖家数量（包含AMZ、FBA和FBM卖家总数）",
+        "tier": "通过产品尺寸分段筛选",
+        "weight": "设置最小、最大重量（单位：lbs）"
+      },
+      "TABLE_HEADER_TOOLTIPS": {
+        "bbSeller": "当前拥有Buy Box的卖家类型",
+        "category": "Listing的父类目",
+        "dimensions": "包装尺寸（长x宽x高）",
+        "estRevenue": "30天总收入（价格x每月销量）",
+        "fbaFees": "根据当前价格计算出的需要支付给亚马逊的总费用",
+        "lqs": "LQS,Listing Quality Score的缩写，是基于内部独家算法根据Listing的质量给出的评分（10分为最高，代表Listing质量很好）",
+        "net": "扣除亚马逊费用后卖家的收入",
+        "price": "目前Buy Box的价格",
+        "rank": "父类BSR排名",
+        "rating": "平均星级",
+        "reviews": "当前 listing 的评分数量",
+        "salesEstDaily": "预估日销量",
+        "salesEstMonthly": "预估月销量",
+        "sellers": "卖家数量",
+        "tier": "产品尺寸分段（根据产品重量和尺寸计算）",
+        "weight": "带包装重量",
+        "listingDate": "月/日/年",
+        "estimatedListingDate": "月/日/年；由于亚马逊未能提供该产品的上架时间，我们会根据该产品最早的一条评论或QA问答估算产品的上架时间"
+      }
+    },
+    "SellerCentral": {
+      "graphMetrics": {
+        "Acos": "ACOS",
+        "BuyBoxPercent": "购物车赢得率",
+        "Clicks": "点击次数",
+        "ConvertionRate": "转化率",
+        "Cpc": "CPC",
+        "Impressions": "曝光次数",
+        "OrganicSales": "自然订单销售额",
+        "PageViews": "页面浏览次数",
+        "ReviewsReceived": "新增评论数",
+        "Roas": "ROAS",
+        "SalesRank": "BSR排名",
+        "Spend": "花费",
+        "UnitsOrdered": "总销量",
+        "ConversionRate": "转化率",
+        "AcosTooltip": "广告成本销售比（ACOS）：在广告上的支出占销售收入的比例（总支出/总销售额 x 100%）",
+        "BuyBoxPercentTooltip": "显示黄金购物车按钮的页面浏览量占页面总浏览量的百分比",
+        "ClicksTooltip": "广告点击次数",
+        "ConversionRateTooltip": "买家在观看广告后，将您的产品添加到购物车并完成购买的买家占比",
+        "CpcTooltip": "关键词点击的平均花费，按总支出金额除以总点击次数计算（总花费金额/点击次数）",
+        "ImpressionsTooltip": "广告展示次数",
+        "OrganicSalesTooltip": "在选定时间范围内，通过在亚马逊上直接点击您的listing，顾客购买的商品总价值",
+        "PageViewsTooltip": "在选定的时间段内浏览listing的次数",
+        "ReviewsReceivedTooltip": "产品新增的评论数量",
+        "RoasTooltip": "广告支出回报（ROAS）：您从广告活动中获得的收入。通过将广告活动所得的销售额除以广告成本计算而得。因广告类型不同ROAS也会变化。",
+        "SalesRankTooltip": "在一级类目中的BSR排名",
+        "SpendTooltip": "产品广告的总点击费用",
+        "UnitsOrderedTooltip": "总销量指订购商品的总件数，包含自然销量和广告销量"
+      }
+    },
+    "TopProductsTableColumns": {
+      "asin": "ASIN",
+      "productTitle": "产品标题",
+      "revenue": "收入",
+      "salesRevenuePercentage": "% 占销售收入的比例",
+      "salesUnitsPercentage": "% 占销量的比例",
+      "units": "数量"
+    }
+  },
+  "dropdown": {
+    "AlreadyAddedToTracker": {
+      "AlreadyAddedToTracker": {
+        "buttonText": "去查看",
+        "label": "该产品已添加到网页版的竞品跟踪器中"
+      }
+    }
+  },
+  "menu_drawer": {
+    "MenuDrawer": {
+      "MenuDrawer": {
+        "menuItem": {
+          "disabledTitle": "查看关键词的Google搜索趋势",
+          "labelCustomizeView": "自定义展示数据列",
+          "labelDownloadCsv": "导出为CSV文件",
+          "labelDownloadScreenshot": "导出为图片",
+          "labelFilterResults": "筛选结果",
+          "labelKeywordCloud": "关键词云",
+          "labelSearchTrends": "搜索关键词趋势",
+          "labelShareOnFacebook": "通过Facebook分享"
+        },
+        "upgradeButton": {
+          "labelGetFeatures": "获得插件所有功能"
+        }
+      }
+    },
+    "MenuFooter": {
+      "MenuFooter": {
+        "menuHelp": "帮助",
+        "menuLogOut": "登出",
+        "menuSettings": "帐号设置"
+      }
+    },
+    "MenuItemCsvDownload": {
+      "MenuItemCsvDownload": {
+        "label": "导出为CSV文件"
+      }
+    },
+    "MenuItemKeywordCloud": {
+      "MenuItemKeywordCloud": {
+        "label": "关键词云"
+      }
+    },
+    "MenuSubview": {
+      "MenuSubview": {
+        "headerLabel": "主菜单"
+      }
+    },
+    "MinMaxFilters": {
+      "MinMaxFilter": {
+        "highestPlaceholder": "最高",
+        "listingDateTitle": "上架时间区间",
+        "lowestPlaceholder": "最低"
+      },
+      "DatePicker": {
+        "DateRanges": {
+          "1Month": "1个月",
+          "1Year": "1年",
+          "3Months": "3个月",
+          "6Months": "6个月",
+          "all": "全部"
+        }
+      }
+    },
+    "PtotoAndName": {
+      "PtotoAndName": {
+        "helloStringWithName": "您好，",
+        "helloStringWithoutName": "您好!"
+      }
+    },
+    "SizeTier": {
+      "SizeTier": {
+        "wrapper": "尺寸分段"
+      }
+    },
+    "SubviewColumns": {
+      "SubviewColumns": {
+        "columnTitle": "添加或移除列",
+        "toggleEmbedTitle": "在亚马逊页面上展示商品详情",
+        "toggleSponsoredTitle": "展示广告商品",
+        "toggleProductPageEmbedTitle": "在产品详情页上展示商品详情"
+      }
+    },
+    "SubviewFooter": {
+      "SubviewFooter": {
+        "buttonApplyChanges": "更改设置",
+        "buttonReset": "重置设置"
+      }
+    },
+    "SubviewHelp": {
+      "SubviewHelp": {
+        "labelContactSupport": "联系客服",
+        "labelHelp": "帮助中心"
+      }
+    },
+    "SubviewSettings": {
+      "SubviewSettings": {
+        "ExpressModeTip": "缓存模式使用了系统缓存级别的数据集，因此可以在插件加载速度慢的情况下加速插件的数据加载。但是，这种模式下会移除页面上广告产品的数据获取，而且数据是非实时更新的。如果需要最精确的实时数据，请关闭此模式。",
+        "labelExpressMode": "缓存模式",
+        "subscriptionNameJsl": "JS简化版插件",
+        "subscriptionNameJsp": "JS专业版插件",
+        "subscriptionsHeader": "查看您的会员信息",
+        "sellerCentalGraphTip": "<0>开启该功能后，JS插件将在 <1>亚马逊卖家后台首页显示自然订单和PPC广告订单</1></0>",
+        "sellerCentralGraphLabel": "JS海卖助手"
+      }
+    }
+  },
+  "modal": {
+    "Onboarding": {
+      "Buttons": {
+        "back": "上一项",
+        "next": "下一项",
+        "startProductResearch": "开始选品"
+      },
+      "Step1": {
+        "closeBtn": "暂时跳过",
+        "description": "快速熟悉JS插件的强大功能",
+        "nextBtn": "了解插件的使用方法",
+        "title": "<0>欢迎使用</0><1>JS插件</1>"
+      },
+      "Step2": {
+        "description": "打开亚马逊热销榜单、搜索页或产品详情页，点击运行插件，即可查看产品的预估销量、利润和市场竞争程度等数据，还可以点击首行标题对数据列进行排序。"
+      },
+      "Step3": {
+        "description": "插件的机会分数，是在综合考量了该市场的供需关系、竞争程度和现有Listing的质量等数据的基础上给出1-10的评分，分数高表明，它是一个蓝海市场机会，需求高且竞争小；分数低有可能是竞争过大，或者市场需求较低。机会分数为您提供参考数据，有助于快速有效地筛选出好的产品机会。"
+      },
+      "Step4": {
+        "description": "通过点击列表中的橙色数字，您可以打开链接，查看历史售价、历史排名和FBA利润计算器等数据。还可以点击和拖动选取特定时间区间，放大查看数据。"
+      },
+      "Step5": {
+        "description": "您还可以产品快速添加到网页版的竞品跟踪器中，以对其进行验证。 点击 <2></2> 开始跟踪竞品。 点击 <4></4> 即可在网页版中查看您所跟踪产品，分析其销售、价格、排名和库存等维度的变化。 "
+      },
+      "Step6": {
+        "description": "点击左上角的菜单，您可以自定义窗口中显示的数据，设置筛选器对产品进行筛选，以及将数据导出到Excel表格中进行深度分析，多项功能供您探索。"
+      },
+      "Step7": {
+        "descriptionLine1": "准备好了吗？",
+        "descriptionLine2": "快用插件去寻找您下一个爆款吧！"
+      }
+    },
+    "OopsModal": {
+      "OopsModal": {
+        "title": "请稍等一下!"
+      }
+    },
+    "FirefoxConsentPage": {
+      "button": {
+        "agree": "同意 - 继续使用",
+        "disagree": "不同意 - 关闭弹窗"
+      },
+      "description": {
+        "datas": "<0> -IP地址</0><1> -浏览器类型</1><2> -操作系统</2><3> -本地时区</3><4> -每个日期和时间的访客请求（例如来自亚马逊和其他相关网站的搜索结果数据和Listing数据）</4><5> -语言偏好</5><6> -功能使用情况</6>"
+      },
+      "subtitle1": "请允许我们收集以下必要的信息以便为您提供服务：",
+      "subtitle2": "JS插件火狐浏览器版隐私政策",
+      "subtitle3": "使用之前需要您阅读并接受我们的隐私政策条款"
+    },
+    "UpgradeNotificationModal": {
+      "body": "<0>JS插件升级</0><1>好消息！我们正在将您的JS插件(简化版)访问权限升级到JS插件(专业版)。专业版是JS插件功能最强大的版本。您可以通过 <2>Google Store</2> 或点击下面的按钮以安装最新版的JS插件(专业版)。JS插件(简化版)将于2021年4月1日停止更新，请及时安装最新版的JS插件(专业版)进行使用！请放心，插件升级无需额外付费！</1>",
+      "downloadButton": "点击下载",
+      "thanksButton": "谢谢"
+    },
+    "Login": {
+      "Button": {
+        "hide": "隐藏密码",
+        "login": "登录",
+        "show": "显示密码",
+        "signUp": "注册账号"
+      },
+      "Description": {
+        "forgotPassword": "忘记密码？",
+        "invalidEmail": "邮箱格式无效",
+        "noAccount": "还没有JS帐号？"
+      },
+      "Error": {
+        "First": {
+          "description1": "账号或密码不正确。",
+          "description2": "请检查您的账号邮箱和密码。"
+        },
+        "OverRateLimit": {
+          "description1": "登录失败的次数过多。请稍后再试。"
+        },
+        "Second": {
+          "description1": "仍然无法登录您的账号？",
+          "description2": "请",
+          "description3": "联系JS客服"
+        },
+        "Timeout": {
+          "description1": "连接超时，请重新登录。"
+        }
+      },
+      "Label": {
+        "emailAddress": "账号邮箱",
+        "password": "密码"
+      },
+      "title": "登录"
+    }
+  },
+  "Embed": {
+    "CloseEmbedPopup": {
+      "closePopupPrompt": "关闭后亚马逊页面嵌入数据将无法显示。",
+      "reopen": "你可以通过“插件主界面” - “自定义展示数据列” 重新打开。",
+      "title": "确认关闭？",
+      "cancelButton": "取消",
+      "closeButton": "关闭"
+    }
+  },
+  "EmbedCard": {
+    "closeIcon": {
+      "tooltipContent": "关闭"
+    },
+    "customizeViewIcon": {
+      "tooltipContent": "自定义展示数据列"
+    },
+    "keyWordSearchIcon": {
+      "tooltipContent": "反查ASIN关键词"
+    },
+    "monthlySales": {
+      "tooltipContent": {
+        "noData": "月销量是按照大类排名来预估的，当亚马逊没有为该ASIN提供大类排名时，插件就无法预估销量了。因为小类排名变动频繁，所以目前无法作为销量预估的参考。"
+      }
+    },
+    "trackerIcon": {
+      "tooltipContent": {
+        "tracked": "已添加到竞品跟踪器！"
+      }
+    },
+    "seller": {
+      "plural": "个卖家",
+      "singular": "个卖家"
+    },
+    "footer": "数据支持：<1>JungleScout</1>"
+  },
+  "sellerCentral": {
+    "EmbeddedOrganicPpcBox": {
+      "collapsibleBoxTitle": "JS海卖助手"
+    },
+    "GraphEmptyState": {
+      "description": "透视您的运营绩效和关键指标。我们需要一些时间处理数据，请稍后再来查看。",
+      "title": "运营指标，一览无余"
+    },
+    "BulkReviewsButton": {
+      "staticText": {
+        "isComplete": "邀评已完成",
+        "notComplete": "邀评(仅针对当前订单页面)"
+      }
+    },
+    "RequestReviewButton": {
+      "REVIEW_LABELS": {
+        "failed": "邀评失败",
+        "ineligible": "不满足邀评条件",
+        "request": "请求评论",
+        "sending": "正在邀评",
+        "sent": "已邀评"
+      }
+    }
+  },
+  " seller_central": {
+    "OrganicVsPpcGraph": {
+      "organicSalesLabel": "自然订单销售额",
+      "ppcSalesLabel": "广告订单销售额",
+      "totalSalesLabel": "总销售额"
+    }
+  },
+  "SellerCentral": {
+    "CalendarSelect": {
+      "comparison": "对比：{{label}}",
+      "customItem": "自定义日期"
+    },
+    "DatePicker": {
+      "DateRanges": {
+        "last30days": "最近30天",
+        "last60Days": "最近60天",
+        "last90Days": "最近90天"
+      },
+      "error": {
+        "endDateHigherThanMaxDate": "结束日期不能晚于{{maxDate}}",
+        "endDateLowerThanMinDate": "结束日期不能早于{{minDate}}",
+        "endDateLowerThanStartDate": "结束日期不能早于开始日期",
+        "startDateHigherThanEndDate": "开始日期不能早于结束日期",
+        "startDateHigherThanMaxDate": "开始日期不能晚于{{maxDate}}",
+        "startDateLowerThanMinDate": "开始日期不能早于{{minDate}}"
+      }
+    },
+    "DateRangePicker": {
+      "apply": "应用",
+      "cancel": "取消",
+      "endDate": "结束日期",
+      "error": {
+        "label": "错误"
+      },
+      "startDate": "开始日期"
+    },
+    "EmbeddedOrganicPpcBox": {
+      "collapsibleBoxTitle": "JS海卖助手"
+    },
+    "GraphEmptyState": {
+      "description": "透视您的运营绩效和关键指标。我们需要一些时间处理数据，请稍后再来查看。",
+      "title": "运营指标，一览无余"
+    },
+    "OrganicVsPpcGraph": {
+      "AsinPicker": {
+        "defaultOptionName": "所有产品",
+        "searchPlaceholder": "搜索ASIN，标题"
+      },
+      "organicSalesLabel": "自然订单销售额",
+      "ppcSalesLabel": "广告订单销售额",
+      "totalSalesLabel": "总销售额",
+      "ppcNotPresentTooltip": "要获取最新的 PPC 销售信息，请先开启您的广告活动。<1><0></0><1>打开广告活动管理</1></1>",
+      "ppcPresentTooltip": "要获取最新的 PPC 销售信息，请先开启您的广告活动。<1><0></0><1>开启广告活动管理</1></1>",
+      "Tooltip": {
+        "noDataToDisplay": "要获取最新的PPC销量和自然销量信息，请先开启您的广告活动。",
+        "negativeOrganicSales": "您这一天的自然销量为负数，因为您报告的广告订单销量超过了报告的总销售。"
+      },
+      "lineChartSelect": {
+        "dropdown": {
+          "subtitle": {
+            "pcc": "广告指标",
+            "sales": "销售指标"
+          },
+          "title": "选择 {{accessorsLimit}}"
+        },
+        "title": "已选择{{selectedCount}}项"
+      },
+      "ppcSalesLabelTooltip": "在选定时间范围内，通过直接点击您投放的广告活动，顾客购买的商品总价值",
+      "totalSalesTooltip": "在选定时间范围内出售商品的总价值",
+      "salesLabel": "销售额",
+      "DatePicker": {
+        "disabledDaysTooltip": "目前，我们仅支持显示最近90天的数据",
+        "lastFourDaysTooltip": "目前，我们仅支持显示4天前的数据"
+      },
+      "TopProducts": {
+        "dropDownDateSelector": {
+          "tooltip": "由于数据提取有延迟，因此只能显示5天前的数据。"
+        }
+      }
+    },
+    "all": "全部",
+    "deselectAll": "取消全选",
+    "no": "否",
+    "selectAll": "全选",
+    "totalSalesLabel": {
+      "organicSalesLabel": "总销售额"
+    },
+    "EmbeddedTopProductsBox": {
+      "collapsibleBoxTitle": "最佳产品",
+      "Tabs": {
+        "topSalesRevenueProductsLabel": "销售额最佳产品",
+        "topSalesUnitProductsLabel": "销量最佳产品"
+      },
+      "footer": "<0>想查看亚马逊店铺更多的销售数据吗？请尝试<2>店铺销售分析</2></0>"
+    }
+  },
+  "Watermark": "数据支持：<1>JungleScout</1>",
+  "components": {
+    "OppScoreIcon": {
+      "competitionLabel": "且 {{ competition }} 竞争",
+      "demandLabel": "{{ demand }} 需求"
+    },
+    "levelLabel": {
+      "competition": {
+        "highLabel": "高",
+        "lowLabel": "低",
+        "mediumLabel": "中"
+      },
+      "demand": {
+        "highLabel": "高",
+        "lowLabel": "低",
+        "mediumLabel": "中"
+      }
+    },
+    "ReviewsDownload": {
+      "alert": {
+        "error1": "评论下载出错。",
+        "error2": "请检查您的网络连接，清除浏览器设置中的缓存，并刷新页面。"
+      },
+      "downloadReviews": "下载评论",
+      "reviews": "评论数",
+      "tooltip": {
+        "failure": "未找到有效数据，请尝试清除缓存并刷新网页。",
+        "loading": "加载中，请稍等...",
+        "maximum": "您最多可以下载 {{ number }} 条最新的评论。",
+        "noremind": "不再提醒",
+        "started1": "开始提取数据！数据提取完成后，即可下载评论。",
+        "started2": "下载完成前，请勿关闭页面！",
+        "unsupportedData": "当前 listing 没有可下载的评论内容。",
+        "unsupportedMarket1": "评论下载功能目前仅支持美国站。",
+        "unsupportedMarket2": "未来我们将支持更多站点。",
+        "unsupportedPage": "仅支持产品详情页。"
+      }
+    }
+  },
+  "generic": {
+    "DateRanges": {
+      "last30Days": "最近30天",
+      "last60Days": "最近60天",
+      "last7Days": "最近7天",
+      "last90Days": "最近90天"
+    }
+  }
+}

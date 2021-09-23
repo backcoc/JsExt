@@ -1,0 +1,81 @@
+/*! jQuery UI - v1.11.4 - 2015-08-26
+* http://jqueryui.com
+* Includes: resizable.css
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-resizable {
+  position: relative;
+}
+.ui-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+  display: none;
+}
+.ui-resizable-n {
+  z-index: 100001 !important;
+  cursor: n-resize;
+  height: 10px;
+  width: 100%;
+  top: -5px;
+  left: 0;
+}
+.ui-resizable-s {
+  z-index: 100001 !important;
+  cursor: s-resize;
+  height: 10px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+.ui-resizable-e {
+  z-index: 100001 !important;
+  cursor: e-resize;
+  width: 10px;
+  right: -10px;
+  top: 0;
+  height: 100%;
+}
+.ui-resizable-w {
+  z-index: 100001 !important;
+  cursor: w-resize;
+  width: 10px;
+  left: -5px;
+  top: 0;
+  height: 100%;
+}
+.ui-resizable-se {
+  z-index: 100001 !important;
+  cursor: se-resize;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  bottom: -10px;
+}
+.ui-resizable-sw {
+  z-index: 100001 !important;
+  cursor: sw-resize;
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  bottom: -10px;
+}
+.ui-resizable-nw {
+  z-index: 100001 !important;
+  cursor: nw-resize;
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  top: -10px;
+}
+.ui-resizable-ne {
+  z-index: 100001 !important;
+  cursor: ne-resize;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  top: -10px;
+}

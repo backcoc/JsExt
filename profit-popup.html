@@ -1,0 +1,59 @@
+<!-- 
+    @Author: Greg Mercer
+    Copyright © 2020 Jungle Scout
+-->
+
+
+<h2>FBA Profit Calculator</h2>
+<span id="closeProfitCalc" class="close-popup-btn"><i class="close-popup-icon"></i></span>
+<div class="js-profit-calc-content">
+	<img class="profit-product-img" src="" />
+	<p class="profit-product-name"></p>
+	<table class="js-profit-inputs">
+		<tr>
+			<td><p>Product Weight:</p></td>
+			<td class="profit-product-weight"><input disabled type="text" value="" /></td>
+			<td><p style="margin-left: 30px">Total FBA Fee:</p></td>
+			<td class="profit-product-total-fba"><input disabled type="text" value="" /></td>
+		</tr>
+		
+		<tr>
+			<td><p>Product Dimensions:</p></td>
+			<td class="profit-product-dimensions"><input disabled type="text" value="" /></td>
+			<td><p style="margin-left: 30px">Net:</p></td>
+			<td class="profit-product-net"><input disabled type="text" value="" /></td>
+		</tr>
+
+		<tr>
+			<td><p>Product Tier:</p></td>
+			<td class="profit-product-tier"><input disabled type="text" value="" /></td>
+			<td><p style="margin-left: 30px">Product Cost:</p></td>
+			<td class="profit-product-cost"><span class="current-currency"></span><input name="productCost" type="text"/></td>
+		</tr>
+
+		<tr>
+			<td><p>Product Price:</p></td>
+			<td class="profit-product-price"><span class="current-currency"></span><input name="profitProductPrice" type="text" /></td>
+			<td><p style="margin-left: 30px">ROI Percentage:</p></td>
+			<td class="profit-product-roi"><input disabled type="text" value="" /></td>
+		</tr>
+
+		<tr>
+			<td><p>FBA Fulfillment Fee:</p></td>
+			<td class="profit-product-fba"><input disabled type="text" value="" /></td>
+			<td colspan="2" style="position: relative;"><p class="profit-result">Profit: </p><span class="profit-result-span"></span></td>
+		</tr>
+
+		<tr>
+			<td><p>Referral Fee:</p></td>
+			<td class="profit-product-referral-fee"><input disabled type="text" value="" /></td>
+			<td colspan="2"></td>
+		</tr>
+
+		<tr>
+			<td><p>Variable Closing Fees:</p></td>
+			<td class="profit-product-closing-fee"><input disabled type="text" value="" /></td>
+			<td colspan="2"><a class="js-btn js-gray-btn js-profit-submit" id="jsCalcProfitButton" href="#"><span>Calculate Profit<span></a></td>
+		</tr>
+	</table>
+</div>

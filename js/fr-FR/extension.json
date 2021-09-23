@@ -1,0 +1,397 @@
+{
+  "ContentTableHelpers": {
+    "AsinSearch": {
+      "supplierTooltip": "Trouvez un fournisseur pour ce produit"
+    },
+    "ContentTableHelpers": {
+      "noBrandTooltip": "Amazon n’affiche pas de marque pour ce listing",
+      "noDimensionsTooltip": "Amazon ne liste pas les dimensions de ce produit. Par conséquent, elles ne peuvent pas être affichées",
+      "noFbaFeesTooltip": "Amazon doit fournir à Jungle Scout le prix de la case d'achat, les dimensions et le poids de ce produit afin de calculer les frais FBA. Un ou plusieurs de ces éléments n’ont pas été fournis par Amazon",
+      "noLqsTooltip": "Amazon ne fournit pas toutes les données nécessaires pour calculer le LQS pour cet article",
+      "noNetTooltip": "Amazon ne liste pas toutes les informations nécessaires (prix de la case d'achat, dimensions et poids) pour calculer le revenu net",
+      "noParentCategoryTooltip": "Le listing ne contient pas de catégorie parente",
+      "noRankTooltip": "Amazon ne classe pas ce listing dans une catégorie parente, seulement des sous-catégories. Afin de comparer ce qui est comparable, les classements de sous-catégories ne sont pas affichés dans cette fenêtre",
+      "noRevenueTooltip": "Le revenu mensuel ne peut pas être estimé pour ce produit, car il ne dispose pas d’estimation des ventes mensuelles ou de prix de la case d'achat",
+      "noReviewRatingTooltip": "Ce produit n’a pas encore d'évaluation",
+      "noSellerTooltip": "Ce listing n’a pas de vendeur gérant la case d'achat",
+      "noSellerTypeTooltip": "Aucun vendeur ne gère actuellement la case d'achat, par conséquent il est impossible d'afficher un type de vendeur",
+      "noSellersNumberTooltip": "Amazon ne fournit pas le nombre de vendeurs pour ce listing",
+      "noSizingTooltip": "Amazon ne liste pas les dimensions ni le poids de ce produit. Par conséquent, le volet de dimensions ne peut pas être affiché",
+      "noStarRatingTooltip": "Amazon n’affiche pas d'évaluation pour ce produit",
+      "noWeightTooltip": "Amazon ne liste pas le poids de ce produit, par conséquent, il ne peut pas être affiché"
+    },
+    "Ordinal": {
+      "alt": "Supprimer",
+      "title": "Supprimer le produit"
+    },
+    "SaleEstimate": {
+      "noSalesEstimationTooltip": {
+        "daily": " Quotidiennement",
+        "montly": " Mensuellement",
+        "text": " les ventes ne peuvent pas être estimées pour ce produit, car Amazon ne le classe pas dans une catégorie parente. Malheureusement, les classements de sous-catégories ne peuvent pas fournir d’estimations de ventes, elles ne doivent donc pas être utilisées par les vendeurs pour prédire les ventes et ne sont pas utilisées par Jungle Scout"
+      }
+    },
+    "Title": {
+      "sponsoredTitle": "Sponsorisé"
+    },
+    "variantProductWithSameRankTooltip": "Le revenu mensuel n’est pas affiché pour cette variante car elle a le même classement que le ASIN parent. Le revenu mensuel de l’ASIN parent comprend également les revenus de cette variante",
+    "HeaNewActionsColumnBlueDot": {
+      "blueDotPopupButtonText": "C’est bon"
+    },
+    "NewActionsColumnBlueDot": {
+      "blueDotPopupTitle": "Nouvelles fonctionnalités disponibles !",
+      "copyAsinText": "Copier facilement un ASIN.",
+      "keywordSearchText": "Effectuer une recherche inverse d’ASIN pour découvrir les mots-clés que les produits concurrents utilisent et quels mots-clés font apparaître un produit dans le classement."
+    }
+  },
+  "EmptyState": {
+    "EmptyState": {
+      "stepOne": "Cliquez sur la barre de recherche ci-dessus",
+      "stepThreeAfterIcon": " icône permettant de voir les informations du listing",
+      "stepThreeBeforeIcon": "Cliquez sur ",
+      "stepTwo": "Entrez une idée de produit ",
+      "title": "Essayez d’effectuer une recherche"
+    }
+  },
+  "Footer": {
+    "Footer": {
+      "loadButton": "Charger plus de résultats",
+      "resultCounterLoading": "Chargement des résultats",
+      "resultCounterShowing": "Affichage des résultats"
+    }
+  },
+  "Header": {
+    "Header": {
+      "menuButton": "Menu",
+      "blueDotPopupButtonText": "C’est bon",
+      "blueDotPopupText": "Essayez le mode Dock !",
+      "blueDotPopupTitle": "La fenêtre contextuelle bloque votre écran ?"
+    }
+  },
+  "Summary": {
+    "Summary": {
+      "avgMonthlyLabel": "Moyenne des ventes mensuelles",
+      "avgPriceLabel": "Moyenne des prix",
+      "avgRankLabel": "Classement moyen des ventes",
+      "avgReviewsLabel": "Moyenne des avis",
+      "opportunityScoreLabel": "Opportunity Score"
+    }
+  },
+  "SummaryCard": {
+    "SummaryCard": {
+      "noDataAvailable": "Aucune donnée disponible",
+      "noDataAvailableShort": "Pas de données"
+    }
+  },
+  "SummaryOppScoreCard": {
+    "SummaryOppScoreCard": {
+      "noDataAvailable": "Aucune donnée <1></1>disponible",
+      "onlyOnSearchText": "Uniquement disponible <1></1>sur les Pages de recherche",
+      "tooltipContent": "Le Opportunity Score est un algorithme interne noté sur une échelle de 1-10, où 10 est la meilleure opportunité et 1 la plus faible. Le score est calculé sur la base de tous les listings extraits et de leur demande en fonction des unités vendues, de la concurrence et du score de qualité du listing",
+      "upgradeButton": "Mettre à niveau pour visualiser",
+      "noDataAvailableShort": "Pas de données",
+      "onlyOnSearchTextShort": "S.O."
+    }
+  },
+  "constants": {
+    "filters_template": {
+      "TABLE_FILTER_MIN_MAX_TEMPLATE": {
+        "estRevenue": "Revenus",
+        "salesEstMonthly": "Ventes"
+      }
+    },
+    "menu_drawer": {
+      "Subviews": {
+        "columnsTitle": "Personnaliser votre affichage",
+        "filtersTitle": "Filtrer les résultats",
+        "helpTitle": "Aide",
+        "settingsTitle": "Paramètres du compte"
+      }
+    },
+    "productTable": {
+      "NON_OPTIONAL_COLUMNS": {
+        "actionsLabel": "Actions",
+        "productNameLabel": "Nom du produit"
+      },
+      "PRODUCT_TABLE_COLUMNS": {
+        "menuBrandLabel": "Marque",
+        "menuCategoryLabel": "Catégorie",
+        "menuDailySalesLabel": "Ventes quotidiennes estimées",
+        "menuDimensionsLabel": "Dimensions du produit",
+        "menuFeesLabel": "Honoraires",
+        "menuListingDateLabel": "Date de première disponibilité",
+        "menuLqsLabel": "Score de qualité du listing",
+        "menuMonthlyRevenueLabel": "Revenus estimés",
+        "menuMonthlySalesLabel": "Ventes mensuelles estimées",
+        "menuNetLabel": "Calculateur du net et du profit",
+        "menuPriceLabel": "Prix",
+        "menuRankLabel": "Classement",
+        "menuRatingLabel": "Évaluation",
+        "menuReviewsLabel": "Nombre d'évaluateurs",
+        "menuSellerTypeLabel": "Type de vendeur",
+        "menuSellersLabel": "Nombre de vendeurs",
+        "menuTierLabel": "Niveau",
+        "menuWeightLabel": "Poids du produit",
+        "tableBrandLabel": "Marque",
+        "tableCategoryLabel": "Catégorie",
+        "tableDailySalesLabel": "Ventes journalières",
+        "tableDimensionsLabel": "Dimensions",
+        "tableFeesLabel": "Honoraires",
+        "tableListingDateLabel": "Date de première disponibilité",
+        "tableLqsLabel": "LQS",
+        "tableMonthlyRevenueLabel": "Revenus mensuels",
+        "tableMonthlySalesLabel": "Ventes mensuelles",
+        "tableNetLabel": "Net",
+        "tablePriceLabel": "Prix",
+        "tableRankLabel": "Classement",
+        "tableRatingLabel": "Évaluation",
+        "tableReviewsLabel": "Avis",
+        "tableSellerTypeLabel": "Type de vendeur",
+        "tableSellersLabel": "Vendeurs",
+        "tableTierLabel": "Niveau",
+        "tableWeightLabel": "Poids"
+      }
+    },
+    "tooltips": {
+      "TABLE_COLUMN_TOOLTIPS": {
+        "addToTracker": "Ajouter à votre Tracker de produits",
+        "net": "Voir le calculateur de profit",
+        "ordinal": "Retirer le produit du tableau",
+        "price": "Voir l’historique du prix de la case d'achat",
+        "rank": "Voir l’historique du classement des meilleurs vendeurs",
+        "salesEstDaily": "Voir l’historique des ventes quotidiennes",
+        "salesEstMonthly": "Voir l’historique des ventes mensuelles",
+        "salesFromApi": "Jungle Scout utilise un classement pour calculer les ventes et revenus estimés. Le classement des meilleurs vendeurs pour la catégorie parente n’est pas affiché sur la page de listing de ce produit, uniquement avec l’API de Amazon. Généralement, dans ce cas précis, les classements semblent fluctuer fortement et, par conséquent, les ventes et revenus estimés doivent être utilisés avec prudence. Nous recommandons de suivre ce produit dans notre Tracker de produits pour obtenir des ventes mensuelles plus précises",
+        "dateFirstAvailable": "MM/JJ/AAAA",
+        "estimatedDateFirstAvailable": "MM/JJ/AAAA, Étant donné que Amazon ne fournit pas ces données, nous effectuons une estimation en utilisant la date d'avis la plus récente ou la date de Q&R la plus récente"
+      },
+      "TABLE_FILTER_TOOLTIPS": {
+        "categories": "Sélectionnez une ou plusieurs catégories",
+        "estimatedRevenue": "Sélectionnez un revenu mensuel estimé minimum ou maximum",
+        "estimatedSales": "Sélectionnez des ventes mensuelles estimées minimales ou maximales (estimations reposant sur le classement)",
+        "listingQualityScore": "Le Score de qualité du listing est une note reposant sur un algorithme propriétaire prenant en compte la qualité du titre, les divers points clés, les photos et la description. Les listings de produits sont notés de 1-10, 10 étant la meilleure note.",
+        "marketplace": "Sélectionner une Marketplace Amazon",
+        "minMax": "Options de filtre min/max",
+        "net": "Choisir un net minimum ou maximum (moins les honoraires FBA)",
+        "price": "Sélectionner un prix minimum ou maximum",
+        "rank": "Sélectionner un minimum ou un maximum pour le classement des best-sellers",
+        "rating": "Sélectionner une évaluation minimum ou maximum (1 étoile - 5 étoiles)",
+        "reviews": "Sélectionner un nombre d'avis minimum ou maximum",
+        "seller": "Filtrer par type de vendeur",
+        "sellers": "Sélectionner un nombre de vendeurs minimum ou maximum (total des vendeurs AMZ, FBA et FBM)",
+        "tier": "Filtrer par niveau de produit",
+        "weight": "Sélectionner un poids minimum ou maximum (en livres)"
+      },
+      "TABLE_HEADER_TOOLTIPS": {
+        "bbSeller": "Type de vendeur qui gère actuellement la case d'achat",
+        "category": "Catégorie parente des listings",
+        "dimensions": "Dimensions emballé (longueur x largeur x hauteur)",
+        "estRevenue": "Revenus bruts sur 30 jours (prix x ventes mensuelles)",
+        "fbaFees": "Total des frais payés à Amazon sur la base du prix actuel",
+        "lqs": "Score de qualité du listing : Constitue un algorithme propriétaire qui détermine la qualité d'un listing(10 = listing de haute qualité / 1 = listing de faible qualité)",
+        "net": "Paiement aux vendeurs après déduction des frais de Amazon",
+        "price": "Prix actuel dans la case d'achat",
+        "rank": "Classement des meilleurs vendeurs dans la catégorie parente",
+        "rating": "Moyenne de l'évaluation à étoiles",
+        "reviews": "Nombre d'avis sur le produit pour ce listing",
+        "salesEstDaily": "Estimation des ventes unitaires quotidiennes",
+        "salesEstMonthly": "Estimation des ventes unitaires sur 30 jours",
+        "sellers": "Nombre de vendeurs vendant actuellement sur ce listing",
+        "tier": "Niveau de taille de produit (sur la base du poids et des dimensions de l’article)",
+        "weight": "Poids emballé",
+        "listingDate": "MM/JJ/AAAA",
+        "estimatedListingDate": "MM/JJ/AAAA, Étant donné que Amazon ne fournit pas ces données, nous effectuons une estimation en utilisant la date d'avis la plus récente ou la date de Q&R la plus récente"
+      }
+    }
+  },
+  "dropdown": {
+    "AlreadyAddedToTracker": {
+      "AlreadyAddedToTracker": {
+        "buttonText": "Voir dans le Tracker",
+        "label": "Ce produit est déjà suivi."
+      }
+    }
+  },
+  "menu_drawer": {
+    "MenuDrawer": {
+      "MenuDrawer": {
+        "menuItem": {
+          "disabledTitle": "Consultez la page de résultats de la recherche sur Amazon pour pouvoir voir les tendances de recherche sur Google",
+          "labelCustomizeView": "Personnaliser la vue",
+          "labelDownloadCsv": "Télécharger CSV",
+          "labelDownloadScreenshot": "Télécharger la capture d'écran",
+          "labelFilterResults": "Filtrer les résultats",
+          "labelKeywordCloud": "Nuage de mots-clés",
+          "labelSearchTrends": "Tendances de recherche",
+          "labelShareOnFacebook": "Partager sur Facebook"
+        },
+        "upgradeButton": {
+          "labelGetFeatures": "Obtenir toutes les fonctionnalités d’extension"
+        }
+      }
+    },
+    "MenuFooter": {
+      "MenuFooter": {
+        "menuHelp": "Aide",
+        "menuLogOut": "Se déconnecter",
+        "menuSettings": "Paramètres du compte"
+      }
+    },
+    "MenuItemCsvDownload": {
+      "MenuItemCsvDownload": {
+        "label": "Télécharger CSV"
+      }
+    },
+    "MenuItemKeywordCloud": {
+      "MenuItemKeywordCloud": {
+        "label": "Nuage de mots-clés"
+      }
+    },
+    "MenuSubview": {
+      "MenuSubview": {
+        "headerLabel": "Menu principal"
+      }
+    },
+    "MinMaxFilters": {
+      "MinMaxFilter": {
+        "highestPlaceholder": "Le plus élevé",
+        "listingDateTitle": "Plage de première date de disponibilité",
+        "lowestPlaceholder": "Le plus faible"
+      }
+    },
+    "PtotoAndName": {
+      "PtotoAndName": {
+        "helloStringWithName": "Bonjour,",
+        "helloStringWithoutName": "Bonjour !"
+      }
+    },
+    "SizeTier": {
+      "SizeTier": {
+        "wrapper": "Niveau de taille"
+      }
+    },
+    "SubviewColumns": {
+      "SubviewColumns": {
+        "columnTitle": "Ajouter/supprimer un point de données",
+        "toggleEmbedTitle": "Afficher les informations produit sur la page Amazon",
+        "toggleSponsoredTitle": "Afficher les produits sponsorisés"
+      }
+    },
+    "SubviewFooter": {
+      "SubviewFooter": {
+        "buttonApplyChanges": "Appliquer les modifications",
+        "buttonReset": "Réinitialiser"
+      }
+    },
+    "SubviewHelp": {
+      "SubviewHelp": {
+        "labelContactSupport": "Contacter l’assistance",
+        "labelHelp": "Centre d'aide"
+      }
+    },
+    "SubviewSettings": {
+      "SubviewSettings": {
+        "ExpressModeTip": "Lorsque le mode de Connexion lente est activé, l’extension utilise les serveurs Jungle Scout pour charger les résultats plus rapidement. \r\n            Cependant, activer ce paramètre affichera les résultats qui peuvent ne pas refléter les données de listing les plus récentes de Amazon. \r\n            Pour des données en temps réel plus précise, désactiver le mode de Connexion lente.",
+        "labelExpressMode": "Mode de Connexion lente",
+        "subscriptionNameJsl": "Extension Chrome Lite Jungle Scout",
+        "subscriptionNameJsp": "Extension Chrome Pro Jungle Scout",
+        "subscriptionsHeader": "Abonnements actuels",
+        "sellerCentalGraphTip": "<0>Lorsque le graphique Seller Central est activé, l’extension affichera les ventes organiques par rapport aux données de ventes PPC sur <1>la page d'accueil Amazon Seller Central.</1></0>",
+        "sellerCentralGraphLabel": "Graphique Seller Central"
+      }
+    }
+  },
+  "modal": {
+    "Onboarding": {
+      "Buttons": {
+        "back": "Retour",
+        "next": "Suivant",
+        "startProductResearch": "Commencer la recherche de produit"
+      },
+      "Step1": {
+        "closeBtn": "Non, merci",
+        "description": "Faites une visite rapide pour voir comment ça marche",
+        "nextBtn": "Montrez-moi comment ça marche",
+        "title": "<0>Bienvenue sur</0><1>Extension</1>"
+      },
+      "Step2": {
+        "description": "Analysez les estimations de ventes en temps réel, des projections de revenus et obtenez un instantané du paysage concurrentiel depuis votre tableau de bord. Cliquez sur le titre d’une en-tête de colonne pour trier les données."
+      },
+      "Step3": {
+        "description": "Le Opportunity Score utilise les données de tous les listings extraites telles que la demande et la concurrence et renvoie un score de 1 à 10, 10 étant la meilleure opportunité pour vous."
+      },
+      "Step4": {
+        "description": "Accédez aux graphiques de l’historique des ventes et à un calculateur de profit FBA en cliquant sur n’importe quel lien orange dans les colonnes. Cliquez et faites glisser les sections des graphiques pour zoomer sur les données."
+      },
+      "Step5": {
+        "description": "Vérifiez vos idées de produit en les ajoutant au Tracker de produits. Cliquez <2></2> pour suivre le produit. Cliquez <4></4> pour voir le produit que vous suivez dans Jungle Scout. "
+      },
+      "Step6": {
+        "description": "Accédez à toutes vos fonctionnalités dans le menu principal. Commencez par personnaliser vos options d'affichage pour voir les données que vous estimez les plus importantes."
+      },
+      "Step7": {
+        "descriptionLine1": "Vous êtes prêt à utiliser l’Extension.",
+        "descriptionLine2": "C’est parti, trouvez un produit gagnant !"
+      }
+    },
+    "OopsModal": {
+      "OopsModal": {
+        "title": "Oups !"
+      }
+    },
+    "FirefoxConsentPage": {
+      "PolicyDescription": "<0>A. Déclaration de confidentialité<1></1>Chez Jungle Scout, Inc. (« nous », « notre »), nous estimons et respectons votre vie privée. La présente Politique de confidentialité (« Politique de confidentialité ») décrit les types d'informations, y compris les Données personnelles, que nous collectons auprès de vous lorsque vous utilisez notre extension FireFox (notre « Service »), ainsi que vos choix en matière d'utilisation et de divulgation de vos Données personnelles. De la manière utilisée dans la présente Politique de confidentialité, l’expression « Données personnelles » (« Données personnelles ») signifie des informations qui vous identifient directement ou indirectement, par référence à un ou plusieurs identifiants tels que votre nom, données de localisation, identifiant en ligne ou un ou plusieurs facteurs spécifiques à votre identité physique, économique, culturelle ou sociale.<3></3>En accédant à notre Service, vous acceptez d’être lié par la présente Politique de confidentialité. Si vous n’êtes pas d'accord avec les conditions de la Politique de confidentialité, vous ne pouvez pas utiliser notre Service. Chaque fois que vous utilisez notre Service, la version actuelle de la Politique de confidentialité s'appliquera. En conséquence, dès que vous utilisez notre Service, vous devez vérifier la date de la Politique de confidentialité (qui apparaît en haut) et examiner les éventuels changements depuis la dernière version. La Politique de confidentialité est applicable à tous les visiteurs, utilisateurs enregistrés et tous les autres utilisateurs de notre Service.<5></5>En outre, vous reconnaissez que cette Politique de confidentialité fait partie de nos Conditions générales de service, incorporées par référence et, en accédant à notre Service et en l’utilisant, vous acceptez d’être lié par les Conditions générales de service. Si vous n’êtes pas d'accord avec nos Conditions générales de service, vous ne pouvez pas utiliser notre Service.<7></7>Si vous avez des questions sur nos pratiques en matière de vie privée, merci de vous rendre à la fin de la Politique de confidentialité pour obtenir des informations sur la manière dont vous pouvez nous contacter.<9></9><10></10>B. Données personnelles collectées par Jungle Scout<12></12>Lorsque vous utilisez notre Service, Jungle Scout collecte les informations (i) que vous avez fournies en connaissance de cause et volontairement pour le Service (comme des formulaires ou écrans de profil) y compris des informations de configuration d’enregistrement / compte et (ii) que nous pouvons collecter auprès de votre navigateur Internet, des témoins informatiques ou d'autres technologies similaires.<14></14><15></15>1. Données personnelles que vous fournissez en connaissance de cause et volontairement<17></17>Jungle Scout collecte les informations que vous fournissez en connaissance de cause et volontairement lorsque vous utilisez notre Service​(comme des formulaires web ou des écrans de profil), y compris des informations de configuration d’enregistrement / compte, des détails du profil et des informations d'évaluation. Nous utilisons principalement ces informations pour vous fournir le Service. Vous pouvez choisir de ne pas nous fournir certaines Données personnelles, mais vous pourriez ne pas pouvoir profiter de tous les avantages de notre Service ou d'autres fonctionnalités disponibles que nous proposons. Les informations que nous collectons et utilisons peuvent comprendre les types suivants de Données personnelles :<19></19>- Prénom et nom<21></21>- Adresse électronique<23></23>Ces données sont envoyées aux serveurs de Jungle Scout.<25></25><26></26>2. Données personnelles que nous collectons auprès de vous<28></28>Jungle Scout collecte des informations qui nous sont envoyées automatiquement par votre navigateur Internet. Jungle Scout peut utiliser ces informations pour créer des statistiques groupées ou anonymes concernant les visiteurs de notre Service. Ces informations contiennent habituellement des détails sur votre :<30></30>- Adresse IP<32></32>- Type de navigateur<34></34>- Système d’exploitation<36></36>- Fuseau horaire local<38></38>- Date et heure de chaque demande de visiteur (p. ex. données de résultat de recherche et données de listing de Amazon et autres sites web associés)<40></40>- Préférence de langue<42></42>- Adoption et utilisation des fonctionnalités<44></44>Ces données sont envoyées aux serveurs de Jungle Scout<46>Pendo.io</46>.<48></48>Jungle Scout peut utiliser des Données non personnelles à différentes fins commerciales telles que la fourniture du service client, la prévention des fraudes, les recherches de marché et l’amélioration de notre Service (p. ex. pour afficher des informations produit, estimations de ventes et intégrer des données ou actions sur les pages pour faciliter l’utilisation). <50></50>Jungle Scout utilise<52>Sift.com</52>à des fins de protection contre la fraude. <54></54><55></55>3. Regroupement d’informations<57></57>Nous pouvons regrouper ou rendre anonymes ou utiliser des pseudonymes pour les informations que nous recueillons auprès de vous, y compris les Données personnelles. Cela peut être effectué pour une recherche de marché sur les marques et produits, des campagnes de marketing et de la publicité.<59></59><60></60>C. Comment sont utilisées les Données personnelles ?<62></62>Nous ne traiterons vos Données personnelles, y compris en les partageant avec des tiers, que lorsque (1) vous avez donné votre consentement, qui peut être retiré à tout moment, en contactant support@junglescout.com (2) le traitement est requis pour la réalisation d'un contrat dont vous êtes une partie, (3) nous y sommes obligés par la loi, (4) le traitement est nécessaire pour protéger vos intérêts vitaux ou ceux d’une autre personne ou (5) le traitement est nécessaire dans le cadre de nos intérêts commerciaux légitimes, sauf quand de tels intérêts sont surpassés par vos droits et intérêts.<64></64>Nous pouvons utiliser les Données personnelles que nous collectons sur vous seules ou les combiner à d'autres informations que nous avons sur vous pour :<66></66>- Réaliser des opérations internes, comme le suivi et l’amélioration de l’efficacité de notre site web, expérience mobile et efforts de marketing ;<68></68>- Fournir un produit ou un service, comme la création de comptes, la gestion des achats, les paiements et autres ; <70></70>- Personnaliser les expériences de l’utilisateur, comme en mémorisant vos paramètres et préférences notamment pour la langue, la taille et police et autres ;<72></72>- Apporter une assistance ; <74></74>- Résoudre des litiges entre les utilisateurs ou entre un utilisateur et la société de la manière définie dans nos Conditions générales de service ;<76></76>- Utiliser la localisation de votre appareil pour prévenir la fraude ou délivrer d'autres services reposant sur la localisation que vous pourriez avoir demandés ;<78></78>- Administrer une loterie, un concours ou une promotion similaire ; <80></80>- Faire la publicité pour et commercialiser nos produits et notre Service – et ceux de nos partenaires commerciaux –y compris pour :<82></82>- Présenter une publicité ciblée, vous envoyer ou fournir des publicités, promotions et offres ;<84></84>- Analyser si nos publicités, promotions et offres sont efficaces ;<86></86>- Nous aider à déterminer si vous pourriez être intéressé par de nouveaux produits ou services ;<88></88>- Témoignages de clients ;<90></90>- Réaliser des études ;<92></92>- Réaliser une recherche ;<94></94>- Recevoir des commentaires ;<96></96>- Réaliser des audits ;<98></98>- Fournir des informations à nos partenaires commerciaux ;<100></100>- Fournir des informations aux médias ;<102></102>- Fournir des informations à nos fournisseurs ;<104></104>- Fournir des informations à nos représentants ou conseillers, tels que nos avocats, comptables et autres afin de nous aider à nous conformer aux exigences légales, comptables ou de sécurité ;<106></106>- Transférer vos informations, notamment vers des serveurs en dehors des États-Unis ou dans le cadre d'une fusion ou d’une vente de l’entreprise ;<108></108>- Protéger les droits, la sécurité et les informations de nos membres, de tiers, ainsi que les nôtres. Cela inclut la prévention de la fraude, les rappels commerciaux ou de produit, la poursuite et la défense lors d'un arbitrage au tribunal ou de procédures similaires et autres ;<110></110>- Nous conformer à la légalité<112></112>Nous pouvons également divulguer vos Données personnelles de la manière autrement définie dans la Politique de confidentialité, de la manière autorisée par la loi ou avec votre consentement.<114></114><115></115>D. Qui peut accéder aux informations que nous collectons ?<117></117>Nous transfèrerons vos Données personnelles uniquement à des tiers de confiance qui apportent suffisamment de garanties concernant les mesures de sécurité organisationnelles et techniques régissant le traitement à effectuer et qui peuvent démontrer un engagement de conformité à ces mesures.<119></119>Lorsque des tiers traitent les Données personnelles pour notre compte, nous leur demanderons de consentir, par voie contractuelle ou autre, à traiter les Données personnelles conformément à la loi en vigueur. Ce contrat stipulera, entre autres, que le tiers et ses représentants devront agir uniquement sur nos instructions ou de la manière autorisée par la loi.<121></121>Jungle Scout peut divulguer vos Données personnelles dans les cas suivants :<123></123>Agents​. Nous employons d'autres sociétés et individus pour effectuer des fonctions pour notre compte. Des exemples de ces fonctions incluent l’exécution des commandes, la livraison de colis, l’envoi de courrier postal et électronique, la suppression d'informations répétitives des listes de clients, l’analyse de données, la fourniture d'assistance technique, la fourniture d'assistance en marketing, la fourniture de résultats de recherche et de liens (y compris des listings et liens payants), le traitement de paiements par carte de crédit et la fourniture de service client. Nous partageons les Données personnelles de nos utilisateurs avec ces agents comme cela nous semble nécessaire pour que ces tiers effectuent leurs fonctions.<125></125>Employés​. Seuls les employés autorisés ont accès à vos Données personnelles.<127></127>Partenaires commerciaux, publicitaires, agents et promotions autorisés​. Nous pouvons conclure des alliances, partenariats ou autres arrangements commerciaux avec des tiers pour partager les Données personnelles dans le but de vous fournir des informations concernant des produits et services qui, selon nous, pourraient vous intéresser. Nous pouvons également partager vos informations avec des partenaires tiers afin qu’ils puissent mieux cibler les produits et services pour leurs clients. Si vous ne souhaitez pas recevoir de telles offres, veuillez nous contacter en passant par la procédure mentionnée en Section L (Vos Droits) ci-dessous.<129></129>Pour nous conformer à un processus légal, protéger Jungle Scout ou faire valoir nos Droits​. Nous pouvons dévoiler vos Données personnelles lorsque cela est nécessaire pour (i) nous conformer aux exigences légales ou à un processus légal ; (ii) faire valoir ou appliquer nos conditions d’utilisation et autres accords (iii) protéger les droits, la sécurité ou la propriété de Jungle Scout, nos affiliés, fournisseurs de service, nos utilisateurs ou le public ou (iv) prévenir un crime ou protéger la sécurité nationale (y compris par l’échange d'informations avec d'autres sociétés et organisations pour la protection contre la fraude et la réduction des risques de crédit).<131></131>Dans le cadre d’une fusion ou d’une vente de l’entreprise​. Nous pouvons divulguer vos Données personnelles en rapport avec une transaction professionnelle d’envergure, telle que la vente de notre entreprise, une cession, une fusion, une consolidation ou une vente d’actifs ou dans le cas improbable d'une faillite.<133></133><134></134>E. Vente d’Informations personnelles<136></136>Nous ne vendrons pas vos Données personnelles à des tiers pour leur utilisation sans votre consentement.<138></138><139></139>F. Confidentialité des mineurs et enfants<141></141>1. Protection des enfants en ligne<143></143>Notre Service n’est pas destiné à des enfants âgés de moins de 16 ans. Si vous avez moins de 16 ans, n’utilisez pas notre Service. Nous ne collectons pas de Données personnelles d’enfants de moins de 16 ans en connaissance de cause. Si nous apprenons que les Données personnelles d'individus de moins de 16 ans ont été collectées par notre Service, nous prendrons les mesures appropriées pour supprimer ces informations. Si vous êtes un parent ou tuteur et que vous découvrez que votre enfant ou un mineur âgé de moins de 13 ans a publié, soumis ou autrement communiqué des Données personnelles sur notre Service sans votre consentement, vous pouvez nous alerter à l’adresse​support@junglescout.com pour que nous puissions prendre les mesures adaptées pour supprimer les Données personnelles du mineur de nos systèmes.<145></145>2. Loi sur l’effacement<147></147>Conformément à la loi californienne, les mineurs de moins de 18 ans résidant en Californie peuvent supprimer ou demander et obtenir la suppression de tout contenu et toute information qu’ils publient sur le site web ou l’application. Afin de supprimer ou de demander et d'obtenir la suppression de ce contenu et cette information, l’utilisateur doit nous alerter à l’adresse support@junglescout.com​. Les utilisateurs doivent savoir que la suppression de contenu et d’informations publiés par un mineur ne garantit pas la suppression complète ou exhaustive du contenu ou des informations publiés sur notre Service.<149></149>Dans certaines circonstances, Jungle Scout peut ne pas être obligé de se conformer aux exigences de suppression ci-dessus. Jungle Scout se réserve également le droit, dans la mesure autorisée par la loi, de rendre anonyme le contenu ou les informations publiés ou de les rendre invisibles pour d'autres utilisateurs et le public au lieu de les supprimer ou de les effacer.<151></151><152></152>G. Liens vers des Services de Tiers<154></154>Notre Service peut contenir des liens vers des sites web, applications et services de tiers que nous n’exploitons pas. Ces liens sont fournis sous la forme d'un service et n’impliquent pas d'approbation par Jungle Scout des activités ou du contenu de ces sites, applications ou services ni d’association avec leurs opérateurs. Jungle Scout n’est pas responsable des politiques ou pratiques de confidentialité des tiers, y compris des sites web ou services directement liés à notre Service. Nous vous recommandons de consulter les politiques de confidentialité de tout site tiers dont vous suivez le lien depuis notre Service.<156></156><157></157>H. Widgets de fonctionnalités des réseaux sociaux<159></159>Notre​Service inclut des fonctionnalités des réseaux sociaux, telles que le bouton « J’aime » de Facebook et des widgets, tels que le bouton « Partager » ou l’authentification de votre identité par connexion à notre Service par le biais d'un compte de réseau social. Ces fonctionnalités peuvent collecter votre adresse IP, la page que vous visitez sur notre Service et peut créer un témoin pour permettre le bon fonctionnement de la fonctionnalité. Les fonctionnalités et widgets sont hébergés soit par un tiers soit directement sur notre Service. Vos interactions avec ces fonctionnalités sont régies par la politique de confidentialité de la société qui les fournit.<161></161><162></162>I. Sécurité, Stockage, Conservation<164></164>1. Sécurité<166></166>Nous prenons les précautions techniques et organisationnelles raisonnables pour protéger la confidentialité, la sécurité et l’intégrité de vos Données personnelles. Bien que nous utilisions des mesures de sécurité pour aider à protéger vos Données personnelles contre toute perte, mauvaise utilisation ou divulgation non autorisée, nous ne pouvons pas garantir la sécurité des informations qui nous sont transmises par Internet.<168></168>2. Stockage<170></170>Les Données personnelles que vous nous fournissez sont généralement stockées sur des serveurs en dehors des États-Unis. Si vous vous trouvez dans une autre juridiction, vous devez savoir qu’une fois que vos Données personnelles sont soumises par notre Service, elles seront transférées vers nos serveurs aux États-Unis et que les États-Unis ne disposent actuellement pas de lois uniformisées de protection des données en vigueur.<172></172>Jungle Scout utilise l’API Firefox WebExtensions Storage Sync/Local pour stocker les paramètres de l’utilisateur et l’API de stockage web du navigateur (localStorage) pour stocker les préférences de l’utilisateur. <174></174>3. Conservation<176></176>Nous conserverons vos informations tant que nécessaire pour fournir le Service. Si vous souhaitez résilier votre compte ou demander à ce que nous n'utilisions plus vos informations pour vous fournir un service, veuillez nous contacter à l’adresse​support@junglescout.com​. Nous conserverons et utiliserons vos informations le cas échéant pour nous conformer aux obligations légales, résoudre les litiges et mettre en application nos accords.<178></178><179></179>J. Utilisateurs internationaux de Jungle Scout<181></181>1. Consentement au transfert<183></183>Notre siège est situé aux États-Unis. Nous pouvons accéder à vos Données personnelles ou elles peuvent nous être transmises aux États-Unis ou à nos affiliés, partenaires, commerçants ou fournisseurs de service qui sont situés dans le monde entier. Si vous consultez notre Service hors des États-Unis, sachez que vos informations peuvent être transférées, stockées et traitées aux États-Unis où nos serveurs sont situés et où notre base de données centrale est exploitée. En utilisant notre Service, vous consentez à tout transfert de ces informations.<185></185>Nous protègerons la confidentialité et la sécurité de vos Données personnelles conformément à cette déclaration de confidentialité, peu importe où elles sont traitées ou stockées, cependant, vous reconnaissez et consentez explicitement au fait que les Données personnelles stockées ou traitées aux États-Unis seront soumises aux lois des États-Unis, y compris la possibilité pour les gouvernements, tribunaux et agences réglementaires ou d'application de la loi des États-Unis d'obtenir divulgation de vos Données personnelles.<187></187><188></188>K. Changements par Jungle Scout à cette Politique de confidentialité<190></190>Nous nous réservons le droit de mettre à jour ou modifier la Politique de confidentialité régulièrement. Si nous effectuons des modifications matérielles à cette Politique de confidentialité ou à la manière dont nous utilisons, partageons ou collectons les Données personnelles, nous vous en informerons en révisant la « Date d'entrée en vigueur » dans la partie supérieure de la Politique de confidentialité, en publiant de manière notable une annonce des changements sur notre Service ou en envoyant un e-mail à la dernière adresse électronique que vous nous avez fournie (à moins que nous n’en ayons pas) avant que la nouvelle politique entre en vigueur. Les utilisateurs sont liés par tout changement de la Politique de confidentialité lorsqu’il ou elle utilise notre Service une fois que la notification de ces changements a été communiquée. Nous vous recommandons de consulter la Politique de confidentialité régulièrement pour veiller à connaître les pratiques actuelles de Jungle Scout.<192></192><193></193>L. Vos Droits<195></195>1. Correction Suppression<197></197>Si l'une des informations dont nous disposons à votre sujet est incorrecte ou si vous souhaitez que certaines informations (y compris des Données personnelles) soient supprimées de nos dossiers, veuillez nous contacter à l’adresse support@junglescout.com​. Nous répondrons à de telles demandes dans les quarante-cinq (45) jours ouvrés.<199></199>2. Marketing<201></201>En consentant à la présente Politique de confidentialité, vous acceptez de recevoir de notre part des documents de marketing. Si des Données personnelles sont collectées par nos soins à des fins de marketing, nous vous en informerons généralement au préalable collecter vos données ou de les partager pour des fins tierces. Vous pouvez empêcher le traitement de vos Données personnelles à ces fins en cochant certaines cases des formulaires que nous utilisons pour collecter vos données personnelles. De plus, si vous préférez ne pas recevoir de messages de marketing de notre part, veuillez nous en informer en cliquant sur le lien de désinscription dans tout message de marketing que vous recevez ou en nous envoyant un e-mail à l’adresse​support@junglescout.com​.<203></203>3. Vos Droits californiens<205></205>POUR LES RÉSIDENTS DE CALIFORNIE UNIQUEMENT. La section 1798.83 du Code Civil de Californie demande à certaines entreprises de divulguer les politiques concernant le partage de certaines catégories de vos Données personnelles avec des tiers. Si vous résidez en Californie et avez fourni vos Données personnelles à Jungle Scout, vous pouvez demander des informations sur nos divulgations de certaines catégories de Données personnelles à des tiers à des fins de marketing direct. De telles demandes doivent nous être soumises à l’une des adresses suivantes : ​support@junglescout.com​ ou<207></207>Jungle Scout<209></209>Attn : Droits de confidentialité de Californie<211></211>2021 E. 5th Street, Suite 190<213></213>Austin, TX 78702<215></215>Dans les trente (30) jours de réception d'une telle demande, nous fournirons une liste des catégories de Données personnelles divulguées à des tiers pour qu’ils effectuent du marketing direct, pendant l’année calendaire immédiatement précédente, ainsi que les noms et adresses de ces tiers. Cette demande ne peut pas être faite plus d'une fois par année calendaire. Nous nous réservons le droit de ne pas répondre aux demandes soumises autrement qu’à l’adresse spécifiée dans cette Section.<217></217><218></218>4. Vos Droits de l’Union européenne<220></220>POUR LES INDIVIDUS DE L’UNION EUROPÉENNE . ​Dans le cadre du Règlement général sur la protection des données 2016/679, vous avez le droit de nous demander de ne pas traiter vos Données personnelles à des fins de marketing. Nous vous informons généralement (avant de collecter vos Données personnelles) si nous avons l’intention d'utiliser vos Données personnelles à cette fin ou de divulguer vos informations à un tiers à cette fin. Vous pouvez exercer votre droit à prévenir un tel traitement en cochant certaines cases sur les formulaires que nous utilisons pour collecter vos Données personnelles. Vous pouvez exercer votre droit en nous contactant par le biais de la section Nous contacter sur notre Site.<222></222>Dans certaines circonstances, vous avez le droit de :<224></224>demander un accès à toute Donnée personnelle que nous détenons sur vous (« Demande d'accès de la personne concernée ») ainsi qu’aux informations associées, y compris les destinataires ou catégories de destinataires avec qui les Données personnelles ont été partagées ;<226></226>obtenir sans retard excessif la finalisation de toute Donnée personnelle incomplète ou la rectification de toute Donnée personnelle imprécise que nous détenons sur vous ;<228></228>prévenir ou restreindre le traitement de vos Données personnelles, sauf dans la mesure où le traitement est requis pour l'établissement, l’exercice ou la défense de revendications juridiques ; et<230></230>demander le transfert de Données personnelles directement à un tiers lorsque cela est techniquement faisable.<232></232>De plus, lorsque vous pensez que Jungle Scout n’a pas satisfait à ses obligations conformément à la présente Notice de confidentialité ou à la loi européenne, vous avez le droit de déposer une plainte auprès d'une autorité de protection des données de l’UE. <234></234>Vous pouvez exercer l’un de ces droits en nous contactant par le biais de la section Nous contacter de notre Site.<236></236><237></237>M. Questions liées à la confidentialité<239></239>Si vous avez des questions ou inquiétudes concernant la Politique de confidentialité ou nos pratiques en matière de vie privée, veuillez nous contacter de la manière suivante :<241></241>En envoyant un courrier électronique au Service de la confidentialité à l’adresse support@junglescout.com. <243></243>En envoyant un courrier postal à l’adresse : Privacy Department<245></245>Jungle Scout<247></247>2021 E. 5th Street, Suite 190<249></249>Austin, TX 78702, USA</0>",
+      "button": {
+        "agree": "J’accepte - Continuer pour se connecter ",
+        "disagree": "Je refuse - Fermer la fenêtre"
+      },
+      "description": {
+        "datas": "<0>- Adresse IP</0><1>- Type de navigateur</1><2>- Système d’exploitation</2><3>- Fuseau horaire local</3><4>- Date et heure de chaque demande de visiteur (p. ex. données de résultats de recherche et données de listing sur Amazon et autres sites web associés)</4><5>- Préférence de langue</5><6>- Adoption et utilisation des fonctionnalités</6>"
+      },
+      "subtitle1": "Pouvons-nous collecter les données suivantes qui vous identifient personnellement :",
+      "subtitle2": "Politique de confidentialité Jungle Scout Firefox Extension",
+      "subtitle3": "Veuillez accepter les conditions de la politique de confidentialité avant d’utiliser notre application"
+    }
+  },
+  "Embed": {
+    "CloseEmbedPopup": {
+      "closePopupPrompt": "Souhaitez-vous fermer les informations produit intégrées par Amazon ?",
+      "reopen": "Vous pourrez les rouvrir à partir de l’extension - « Menu » - « Personnaliser la vue »",
+      "title": "Fermer les informations intégrées ?",
+      "cancelButton": "Annuler",
+      "closeButton": "Fermer"
+    }
+  },
+  "EmbedCard": {
+    "closeIcon": {
+      "tooltipContent": "Fermer"
+    },
+    "customizeViewIcon": {
+      "tooltipContent": "Personnaliser la vue"
+    },
+    "keyWordSearchIcon": {
+      "tooltipContent": "Rechercher les mots-clés"
+    },
+    "monthlySales": {
+      "tooltipContent": {
+        "noData": "Les ventes mensuelles ne peuvent pas être estimées pour ce produit, car Amazon ne le classe pas dans une catégorie parente. Malheureusement, les classements de sous-catégories ne peuvent pas fournir d’estimations de ventes, elles ne doivent donc pas être utilisées par les vendeurs pour prédire les ventes et ne sont pas utilisées par Jungle Scout"
+      }
+    },
+    "trackerIcon": {
+      "tooltipContent": {
+        "tracked": "Ajouté à votre Tracker !"
+      }
+    },
+    "copyAsin": {
+      "tooltipContent": {
+        "copy": "Copier Asin",
+        "isCopied": "ASIN copié !"
+      }
+    },
+    "seller": {
+      "plural": "vendeurs",
+      "singular": "vendeur"
+    },
+    "footer": "Proposé par <1>JungleScout</1>"
+  }
+}
